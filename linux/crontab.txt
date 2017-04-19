@@ -1,0 +1,3 @@
+MAILTO=sabath@us.ibm.com
+# run it every minute
+* * * * * /home/db2inst1/runLoadDB.sh >> /home/db2inst1/cron.log 2>&1

@@ -1,0 +1,18 @@
+```
+sudo apt-get install tmux
+
+# start new session
+tmux
+<run commands>
+
+# detach:
+ctr+b
+d
+
+# reattach
+tmux ls
+tmux a -t <id>
+
+# kill tumx session
+exit
+```
