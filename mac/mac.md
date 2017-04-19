@@ -56,6 +56,7 @@ zip -er Docs.zip Docs
 
 ## run forever:
 ```
+export command="ls -l"
 NOW=$(date +%s); while true; do $command; NOW2=$(date +%s);echo $(($NOW2-$NOW)); sleep 2; done
 ```
 
