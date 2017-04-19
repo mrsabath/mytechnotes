@@ -2,13 +2,13 @@
 
 Header:
 
-```
+```bash
 #!/bin/bash -x
 # -x debug mode
 ```
 
 ## create help menu:
-```
+```bash
 helpme()
 {
   cat <<HELPMEHELPME
@@ -31,14 +31,14 @@ fi
 
 ##input param
 
-```
+```bash
 echo "Select Cloud:"
 read CL
 echo "Selected $CL"
 ```
 ## some other things:
 
-```
+```bash
 #check if directory exists:
 if [ -d "$DIRECTORY" ]; then
   echo "Directory $DIRECTORY exists."
@@ -91,7 +91,7 @@ echo $rc
 
 
 ## Complete example with parsing
-```
+```bash
  function get_admin_TLS {
    if [ ! -f "$1" ]; then
        echo "Missing creds file: $stub_auth_file"
@@ -118,19 +118,19 @@ echo $rc
 
 
 ## create random name diretory using process id
-```
+```bash
 mkdir temp.$$
 ```
 
 ## check the current directory and cd there if needed.
-```
+```bash
 if [ ! $(basename "$PWD") = "vagrant" ]; then
 	cd vagrant || exit
 fi
 ```
 
 ## check if dir exist, otherwise create one
-```
+```bash
 TARGET="$GOPATH/src/github.ibm.com/alchemy-containers"
 if [ ! -d "$TARGET" ]; then
   mkdir -p "$TARGET"
@@ -138,13 +138,13 @@ fi
 ```
 
 ## execute complex SSH call
-```
+```bash
 # parse the long string, ADMIN_OUT, result of running a command, and find the
 # last occurrence of ADMIN_KEY=value, using 'rev' function:
 ssh -o LogLevel=quiet -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i 	~/.vagrant.d/insecure_private_key vagrant@$master_ip -t 'export ADMIN_OUT=$(sudo docker exec api-proxy /api-proxy/create_admin.sh admin1 shard1); export ADMIN_KEY=$(echo $ADMIN_OUT | grep "ADMIN_KEY" | rev | cut -d "=" -f1 | rev);sudo docker exec api-proxy /api-proxy/create_user.sh dev-vbox '$tenant' '$shard' '$master_ip' '$master_ip' $ADMIN_KEY'
 ```
 
 # get home directory:
-```
+```bash
 export KUBECONFIG=$(cd;pwd)/first-user/kube-config
 ```
