@@ -1,27 +1,20 @@
 # Various K8s and kubectl Commands
 
-## testing access to k8s API:
-```
-curl --key /etc/kubernetes/cert/admin-key.pem  --cert /etc/kubernetes/cert/admin.pem  --cacert /etc/kubernetes/cert/ca.pem -v -XGET  -H "Accept: application/json" -H "User-Agent: kubectl/v1.5.1 (linux/amd64) kubernetes/82450d0" https://9.12.235.3:8443/api
-```
-
-## debug:
-```
-kubectl --v=10 get pods
-```
-
 ## install kubectl
 [instructions](https://kubernetes.io/docs/user-guide/prereqs/)
 
 ```
+brew install kubectl
+# or 
 curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/darwin/amd64/kubectl
 
 chmod +x kubectl
 ln -s kubectl /usr/local/bin/kubectl
 /usr/local/bin/kubectl -> /Users/sabath/workspace/kubectl/kubectl
 
-# set kubeconfgi:
+# set kubeconfig:
 export KUBECONFIG="/home/vagrant/.fr8r/envs/dev-vbox/shard1/user1/kube-config"
+
 # or on every call:
 kubectl --kubeconfig=/home/vagrant/.fr8r/envs/dev-vbox/shard1/user1/kube-config create -f pod-web.yaml  --validate=false
 pod "kube-web-ms" created
@@ -31,6 +24,41 @@ kube-web-ms   1/1       Running   0          <invalid>
 vagrant@client:~$ kubectl --kubeconfig=/home/vagrant/first-user/kube-config get pods
 No resources found.
 ```
+
+## create alias
+```console
+alias k='kubectl --kubeconfig="/Users/sabath/.fr8r/envs/iris-poc1/shard1/admin/kube-config"'
+k get po
+```
+## testing access to k8s API:
+```
+curl --key /etc/kubernetes/cert/admin-key.pem  --cert /etc/kubernetes/cert/admin.pem  --cacert /etc/kubernetes/cert/ca.pem -v -XGET  -H "Accept: application/json" -H "User-Agent: kubectl/v1.5.1 (linux/amd64) kubernetes/82450d0" https://9.12.235.3:8443/api
+```
+
+## using curl on mac with admin
+```console
+export DIR=/Users/sabath/.fr8r/envs/iris-poc1/shard1/admin
+export HOST=9.59.149.16:443
+alias curl='/usr/local/Cellar/curl/7.46.0/bin/curl'
+
+# api
+curl --key ${DIR}/admin-key.pem --cert ${DIR}/admin.pem  --cacert ${DIR}/ca.pem \
+-v -XGET  -H "Accept: application/json" -H "User-Agent: kubectl/v1.5.1 (linux/amd64) kubernetes/82450d0" https://${HOST}/api
+
+# apis
+curl --key ${DIR}/admin-key.pem --cert ${DIR}/admin.pem  --cacert ${DIR}/ca.pem \
+-v -XGET  -H "Accept: application/json" -H "User-Agent: kubectl/v1.5.1 (linux/amd64) kubernetes/82450d0" https://${HOST}/apis
+
+# swagger
+curl --key ${DIR}/admin-key.pem --cert ${DIR}/admin.pem  --cacert ${DIR}/ca.pem \
+-v -XGET  -H "Accept: application/json" -H "User-Agent: kubectl/v1.5.1 (linux/amd64) kubernetes/82450d0" https://${HOST}/swagger
+```
+
+## debug:
+```
+kubectl --v=10 get pods
+```
+
 
 ## setup kubectl:
 ```

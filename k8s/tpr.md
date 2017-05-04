@@ -13,10 +13,12 @@ helm init
 helm repo update
 ```
 
-[Video](https://www.youtube.com/watch?v=qiB4RxCDC8o)
-[Source code](https://github.com/arschles/2017-KubeCon-EU)
-
+- [Demo Video](https://www.youtube.com/watch?v=qiB4RxCDC8o)
+- [Source code](https://github.com/arschles/2017-KubeCon-EU)
 
 ```console
-
+git clone https://github.com/arschles/2017-KubeCon-EU.git
+helm install --name=kubecon-watcher --namespace=default --set docker.tag=c0ffcab \
+ ./charts/watcher
+helm install --name=kubecon-backup --namespace=default ./charts/backup 
 ```
