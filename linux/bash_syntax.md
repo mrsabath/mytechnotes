@@ -148,3 +148,21 @@ ssh -o LogLevel=quiet -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/nul
 ```bash
 export KUBECONFIG=$(cd;pwd)/first-user/kube-config
 ```
+
+
+## insert multi-line text to the file
+```
+cat >~/.config/jenkins_jobs/jenkins_jobs.ini <<EOF
+[job_builder]
+ignore_cache=True
+keep_descriptions=False
+include_path=.:scripts:~/git/
+recursive=False
+exclude=.*:manual:./development
+allow_duplicates=False
+
+[stash]
+username=user
+password=pass
+EOF
+```

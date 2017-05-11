@@ -75,5 +75,40 @@ New `Update` code:
  update3   Update.v1.k8s.io
  kubectl get update update3 -oyaml
 
+```
+Newer `Cluster Update Service` using KUBECON Demo:
+
+```Console
+/Users/sabath/workspace/go-work/src/github.com/arschles/2017-KubeCon-EU
+#/Users/sabath/workspace/github.com/2017-KubeCon-EU
+export KUBECONFIG=/Users/sabath/.fr8r/envs/iris-poc1/shard1/admin/kube-config
+# register the new TPR
+helm install --name=cluster-update --namespace=default ./charts/ClusterUpdateReq
+# remove it
+helm delete --purge cluster-update
+
+```
+
+Even more newer `Cluster Update Service` using KUBECON Demo:
+
+```Console
+# compile, using GOPATH=/Users/sabath/workspace/go-work
+cd /Users/sabath/workspace/go-work/src/github.ibm.com/sabath/update-service
+make build
+make docker-build
+make docker-push
+
+# deploy
+export KUBECONFIG=/Users/sabath/.fr8r/envs/iris-poc1/shard1/admin/kube-config
+
+# register the new TPR
+helm install --name=cluster-update --namespace=default ./charts/ClusterUpdateReq
+kubectl get thirdpartyresources clusterupdatereq.ibm.com -oyaml
+# remove it
+helm delete --purge cluster-update
+
+# deploy planner
+helm install --name=planner --namespace=default ./charts/Planner
+helm delete --purge planner
 
 ```
