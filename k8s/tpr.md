@@ -94,9 +94,8 @@ Even more newer `Cluster Update Service` using KUBECON Demo:
 ```Console
 # compile, using GOPATH=/Users/sabath/workspace/go-work
 cd /Users/sabath/workspace/go-work/src/github.ibm.com/sabath/update-service
-make build
-make docker-build
-make docker-push
+make build # to compile
+make all   # to push the image
 
 # deploy
 export KUBECONFIG=/Users/sabath/.fr8r/envs/iris-poc1/shard1/admin/kube-config
@@ -110,5 +109,32 @@ helm delete --purge cluster-update
 # deploy planner
 helm install --name=planner --namespace=default ./charts/Planner
 helm delete --purge planner
+
+```
+
+Final steps for `Cluster Update Service` using KUBECON Demo:
+```Console
+# compile, using GOPATH=/Users/sabath/workspace/go-work
+cd /Users/sabath/workspace/go-work/src/github.ibm.com/sabath/update-service
+make build # to compile
+make all   # to push the image
+
+# deploy
+export KUBECONFIG=/Users/sabath/.fr8r/envs/iris-poc1/shard1/admin/kube-config
+
+# register the new TPR and planner
+helm install --name=update-planner --namespace=default --set docker.tag=cd24d17 ./charts/update-planner
+kubectl get thirdpartyresources update.ibm.com -oyaml
+kubectl get update -oyaml
+# remove it
+helm delete --purge update-planner
+
+# request the update
+helm install --name=update-req --namespace=default ./charts/update-req
+helm delete --purge update-req
+
+helm ls --all
+helm delete --purge update-req update-planner
+
 
 ```
