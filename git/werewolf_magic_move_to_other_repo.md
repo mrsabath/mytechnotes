@@ -1,3 +1,6 @@
+## move a whole repo to another location
+
+```console
  505  git clone git@github.ibm.com:alchemy-containers/proxy.git
  507  git branch -a
  508  cd proxy/
@@ -29,11 +32,11 @@
    591  git status
    592  git logs
    594  git push upstream proxy
-
+```
 
 
 ## split of containercafe to fr8r-proxy
-
+```container
 # clone containercafe   
 520  mv containercafe/ fr8r-proxy/
 525  cd fr8r-proxy/
@@ -54,6 +57,8 @@
 543  git remote -v
 544  git branch -a
 545  git push proxyupstream fr8r-proxy
-
+```
 ## migrate repo to another repo, including all the branches:
+```console
 for brn in $(git branch --list -r "origin/*" | grep -v HEAD); do lbr=${brn#origin/}; echo lbr=$lbr; if git branch | grep -w $lbr; then echo $lbr already here; continue; fi; echo making $lbr; git checkout -b $lbr $brn; done
+```
