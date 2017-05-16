@@ -1,5 +1,8 @@
 ## move a whole repo to another location
 
+- source: git@github.ibm.com:alchemy-containers/proxy.git
+- target: git@github.ibm.com:alchemy-containers/openradiant.git
+
 ```console
  505  git clone git@github.ibm.com:alchemy-containers/proxy.git
  507  git branch -a
