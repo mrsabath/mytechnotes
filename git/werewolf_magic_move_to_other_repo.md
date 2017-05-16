@@ -1,5 +1,20 @@
 ## move a whole repo to another location
 
+- source: https://github.ibm.com/sabath/update-service
+- target: https://github.ibm.com/kompass/update-service
+
+1. create a target repo (don't initialize it with README)
+1. cd to source repo:
+
+```console
+cd update-service
+git remote add upstream git@github.ibm.com:kompass/update-service.git
+git remote -v
+git push -u upstream master
+```
+
+## move a part of a whole repo to another location
+
 - source: git@github.ibm.com:alchemy-containers/proxy.git
 - target: git@github.ibm.com:alchemy-containers/openradiant.git
 
