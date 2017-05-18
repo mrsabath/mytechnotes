@@ -138,3 +138,12 @@ helm delete --purge update-req update-planner
 
 
 ```
+## testing the planner
+
+### cordoning the node
+```
+# request body:
+"spec":{"externalID":"9.12.238.116","unschedulable":true}
+ curl -k -v -XPUT  -H "Accept: application/json, */*" -H "Content-Type: application/json" -H "User-Agent: kubectl/v1.6.2 (darwin/amd64) kubernetes/477efc3" https://9.59.149.16:443/api/v1/nodes/9.12.238.116
+ ```
+ 
