@@ -146,4 +146,41 @@ helm delete --purge update-req update-planner
 "spec":{"externalID":"9.12.238.116","unschedulable":true}
  curl -k -v -XPUT  -H "Accept: application/json, */*" -H "Content-Type: application/json" -H "User-Agent: kubectl/v1.6.2 (darwin/amd64) kubernetes/477efc3" https://9.59.149.16:443/api/v1/nodes/9.12.238.116
  ```
- 
+
+### draining a nodes
+```
+
+I0518 13:24:26.650482   51317 request.go:991] Request Body: {"kind":"Eviction","apiVersion":"policy/v1beta1","metadata":{"name":"redis-master-2683564498-vhhpv","namespace":"straore-default","creationTimestamp":null},"deleteOptions":{}}
+I0518 13:24:26.650491   51317 request.go:991] Request Body: {"kind":"Eviction","apiVersion":"policy/v1beta1","metadata":{"name":"frontend-1078725745-w9rnf","namespace":"straore-default","creationTimestamp":null},"deleteOptions":{}}
+I0518 13:24:26.650496   51317 request.go:991] Request Body: {"kind":"Eviction","apiVersion":"policy/v1beta1","metadata":{"name":"db-1391787668-zm8xj","namespace":"straore-default","creationTimestamp":null},"deleteOptions":{}}
+I0518 13:24:26.650503   51317 request.go:991] Request Body: {"kind":"Eviction","apiVersion":"policy/v1beta1","metadata":{"name":"kube-dns-v20-qf0fz","namespace":"kube-system","creationTimestamp":null},"deleteOptions":{}}
+I0518 13:24:26.650498   51317 request.go:991] Request Body: {"kind":"Eviction","apiVersion":"policy/v1beta1","metadata":{"name":"frontend-2415135947-s7bj5","namespace":"sbwolfe-default","creationTimestamp":null},"deleteOptions":{}}
+I0518 13:24:26.650534   51317 round_trippers.go:398] curl -k -v -XPOST  -H "Accept: application/json, */*" -H "Content-Type: application/json" -H "User-Agent: kubectl/v1.6.2 (darwin/amd64) kubernetes/477efc3" https://9.59.149.16:443/api/v1/namespaces/kube-system/pods/kube-dns-v20-qf0fz/eviction
+I0518 13:24:26.650533   51317 round_trippers.go:398] curl -k -v -XPOST  -H "User-Agent: kubectl/v1.6.2 (darwin/amd64) kubernetes/477efc3" -H "Content-Type: application/json" -H "Accept: application/json, */*" https://9.59.149.16:443/api/v1/namespaces/straore-default/pods/redis-master-2683564498-vhhpv/eviction
+I0518 13:24:26.650551   51317 round_trippers.go:398] curl -k -v -XPOST  -H "Accept: application/json, */*" -H "Content-Type: application/json" -H "User-Agent: kubectl/v1.6.2 (darwin/amd64) kubernetes/477efc3" https://9.59.149.16:443/api/v1/namespaces/straore-default/pods/frontend-1078725745-w9rnf/eviction
+I0518 13:24:26.650572   51317 round_trippers.go:398] curl -k -v -XPOST  -H "Accept: application/json, */*" -H "Content-Type: application/json" -H "User-Agent: kubectl/v1.6.2 (darwin/amd64) kubernetes/477efc3" https://9.59.149.16:443/api/v1/namespaces/sbwolfe-default/pods/frontend-2415135947-s7bj5/eviction
+I0518 13:24:26.650919   51317 round_trippers.go:398] curl -k -v -XPOST  -H "User-Agent: kubectl/v1.6.2 (darwin/amd64) kubernetes/477efc3" -H "Content-Type: application/json" -H "Accept: application/json, */*" https://9.59.149.16:443/api/v1/namespaces/straore-default/pods/db-1391787668-zm8xj/eviction
+I0518 13:24:26.804901   51317 round_trippers.go:417] POST https://9.59.149.16:443/api/v1/namespaces/straore-default/pods/redis-master-2683564498-vhhpv/eviction 201 Created in 154 milliseconds
+I0518 13:24:26.804922   51317 round_trippers.go:423] Response Headers:
+I0518 13:24:26.804929   51317 round_trippers.go:426]     Date: Thu, 18 May 2017 17:24:16 GMT
+I0518 13:24:26.804931   51317 round_trippers.go:426]     Content-Type: application/json
+I0518 13:24:26.804934   51317 round_trippers.go:426]     Content-Length: 80
+I0518 13:24:26.805007   51317 request.go:991] Response Body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Success","code":201}
+I0518 13:24:26.805437   51317 round_trippers.go:398] curl -k -v -XGET  -H "Accept: application/json, */*" -H "User-Agent: kubectl/v1.6.2 (darwin/amd64) kubernetes/477efc3" https://9.59.149.16:443/api/v1/namespaces/straore-default/pods/redis-master-2683564498-vhhpv
+
+
+I0518 13:24:26.142366   51317 round_trippers.go:417] GET https://9.59.149.16:443/api/v1/nodes/9.12.238.118 200 OK in 156 milliseconds
+I0518 13:24:26.142389   51317 round_trippers.go:423] Response Headers:
+I0518 13:24:26.142393   51317 round_trippers.go:426]     Content-Type: application/json
+I0518 13:24:26.142397   51317 round_trippers.go:426]     Date: Thu, 18 May 2017 17:24:16 GMT
+I0518 13:24:26.144119   51317 request.go:991] Response Body: {"kind":"Node","apiVersion":"v1","metadata":{"name":"9.12.238.118","selfLink":"/api/v1/nodes9.12.238.118","uid":"e1338fcb-2463-11e7-a53b-06
+
+
+
+I0518 13:24:26.148221   51317 round_trippers.go:398] curl -k -v -XGET  -H "Accept: application/json, */*" -H "User-Agent: kubectl/v1.6.2 (darwin/amd64) kubernetes/477efc3" https://9.59.149.16:443/api/v1/pods?fieldSelector=spec.nodeName%3D9.12.238.118
+I0518 13:24:26.179808   51317 round_trippers.go:417] GET https://9.59.149.16:443/api/v1/pods?fieldSelector=spec.nodeName%3D9.12.238.118 200 OK in 31 milliseconds
+I0518 13:24:26.179829   51317 round_trippers.go:423] Response Headers:
+I0518 13:24:26.179833   51317 round_trippers.go:426]     Content-Type: application/json
+I0518 13:24:26.179837   51317 round_trippers.go:426]     Date: Thu, 18 May 2017 17:24:16 GMT
+I0518 13:24:26.217886   51317 request.go:991] Response Body: {"kind":"PodList","apiVersion":"v1","metadata":{"selfLink":"/api/v1/pods","resourceVersion":"8828233"},"items":[{"metadata":{"name":"crawle
+```
