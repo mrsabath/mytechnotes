@@ -113,6 +113,8 @@ docker images --no-trunc| grep none | awk '{print $3}' | xargs docker rmi
 docker rmi $(docker images --filter dangling=true -q 2>/dev/null) 2>/dev/null
 # delete exited containers
 docker rm -v $(docker ps --filter status=exited -q 2>/dev/null) 2>/dev/null
+# delete all images for specific name
+docker rmi $(docker images | grep api-proxy | awk '{ print $3}' )
 ```
 
 

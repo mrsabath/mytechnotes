@@ -135,9 +135,25 @@ helm delete --purge update-req
 
 helm ls --all
 helm delete --purge update-req update-planner
-
-
 ```
+## Adding new TPR
+Find the proper URL using curl:
+```console
+export DIR=/Users/sabath/.fr8r/envs/iris-poc1/shard1/admin
+export HOST=9.59.149.16:443
+alias curl='/usr/local/Cellar/curl/7.46.0/bin/curl'
+
+# here:
+curl --key ${DIR}/admin-key.pem --cert ${DIR}/admin.pem  --cacert ${DIR}/ca.pem -v -XGET  -H "Accept: application/json" -H "User-Agent: kubectl/v1.5.1 (linux/amd64) kubernetes/82450d0" https://${HOST}/apis/ibm.com/v1alpha1 | jq
+
+# get more:
+curl --key ${DIR}/admin-key.pem --cert ${DIR}/admin.pem  --cacert ${DIR}/ca.pem -v -XGET  -H "Accept: application/json" -H "User-Agent: kubectl/v1.5.1 (linux/amd64) kubernetes/82450d0" https://${HOST}/apis/ibm.com/v1alpha1/inventories | jq
+
+curl --key ${DIR}/admin-key.pem --cert ${DIR}/admin.pem  --cacert ${DIR}/ca.pem -v -XGET  -H "Accept: application/json" -H "User-Agent: kubectl/v1.5.1 (linux/amd64) kubernetes/82450d0" https://${HOST}/apis/extensions/v1beta1/thirdpartyresources | jq
+
+curl --key ${DIR}/admin-key.pem --cert ${DIR}/admin.pem  --cacert ${DIR}/ca.pem -v -XGET  -H "Accept: application/json" -H "User-Agent: kubectl/v1.5.1 (linux/amd64) kubernetes/82450d0" https://${HOST}/apis/extensions/v1beta1/thirdpartyresourcesupdate.ibm.com
+```
+
 ## testing the planner
 
 ### cordoning the node
