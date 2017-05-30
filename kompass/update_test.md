@@ -140,3 +140,4 @@ Good [example](https://github.com/kubernetes/kubernetes/issues/39310)
 ```
 kubectl label nodes 9.12.238.116 failure-domain.beta.kubernetes.io/zone=update-zone-1
 kubectl get nodes -l failure-domain.beta.kubernetes.io/zone=update-zone-1
+```
