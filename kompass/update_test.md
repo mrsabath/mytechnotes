@@ -43,6 +43,11 @@ while true; do NOW=$(date +%s); $command; NOW2=$(date +%s);echo $(($NOW2-$NOW));
 # evict containers:
 kubectl drain --ignore-daemonsets --force --delete-local-data 9.12.238.152
 ```
+## label nodes with update-zones:
+```
+kubectl get nodes -l failure-domain.beta.kubernetes.io/zone=update-zone-1
+kubectl label nodes 10.115.252.14 failure-domain.beta.kubernetes.io/zone=update-zone-1
+```
 
 ## label nodes for update
 ```
