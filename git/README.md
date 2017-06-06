@@ -281,7 +281,7 @@ git checkout force
 git commit -am "text" # with add
 
 
-# combine several commits
+# combine several commits, squash
 git commit -am "test1"
 git commit -am "test2"
 git log
