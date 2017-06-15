@@ -37,28 +37,29 @@ vagrant ssh kubernetes-master
 1. Instal kubeadm: https://kubernetes.io/docs/setup/independent/install-kubeadm/
 
 ```console
-sudo apt-get update
-sudo apt-get install -y \
+sudo su -
+apt-get update
+apt-get install -y \
     apt-transport-https \
     ca-certificates \
     curl \
     software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-sudo apt-key fingerprint 0EBFCD88
-sudo add-apt-repository \
+apt-key fingerprint 0EBFCD88
+add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
    $(lsb_release -cs) \
    stable"
-sudo apt-get install -y docker-ce
+apt-get install -y docker-engine
+apt-get install -y docker-ce
 
 # install kubectl
 curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
 chmod +x ./kubectl
-sudo mv ./kubectl /usr/local/bin/kubectl
+mv ./kubectl /usr/local/bin/kubectl
 
 
 # install kubelet and kubeadm:
-sudo su -
 apt-get update && apt-get install -y apt-transport-https
 curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
 cat <<EOF >/etc/apt/sources.list.d/kubernetes.list
