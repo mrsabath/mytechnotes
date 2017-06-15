@@ -81,5 +81,5 @@ You can now join any number of machines by running the following on each node
 as root:
 
   kubeadm join --token 6695a0.97dc4f6169c5567b 10.0.2.15:6443
-```s
+```
 Then run it on the Worker nodes.
