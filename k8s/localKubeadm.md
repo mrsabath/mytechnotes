@@ -1,12 +1,23 @@
 # Install Kubeadm locally, using Vagrant. 1 master + 3 workers
+git@github.com:jeremievallee/kubernetes-vagrant-ansible.git
+cd kubernetes-vagrant-ansible
+
+# install ansible
+virtualenv venv
+source venv/bin/activate
+pip install ansible
+
+vagrant up
+ansible-playbook playbook.yml -i inventory -e @vars.yml
+
 
 1. create Vagrant file: http://jeremievallee.com/2017/01/31/kubernetes-with-vagrant-ansible-kubeadm/
 ```
 nodes = [
-  { :hostname => 'kubernetes-master',  :ip => '172.16.66.2', :ram => 4096 },
-  { :hostname => 'kubernetes-node1',  :ip => '172.16.66.3', :ram => 2048 },
-  { :hostname => 'kubernetes-node2',  :ip => '172.16.66.4', :ram => 2048 },
-  { :hostname => 'kubernetes-node3',  :ip => '172.16.66.5', :ram => 2048 }
+  { :hostname => 'kubernetes-master',  :ip => '10.0.2.10', :ram => 4096 },
+  { :hostname => 'kubernetes-node1',  :ip => '10.0.2.11', :ram => 2048 },
+  { :hostname => 'kubernetes-node2',  :ip => '10.0.2.12', :ram => 2048 },
+  { :hostname => 'kubernetes-node3',  :ip => '10.0.2.13', :ram => 2048 }
 ]
 
 Vagrant.configure("2") do |config|
@@ -50,7 +61,6 @@ add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
    $(lsb_release -cs) \
    stable"
-apt-get install -y docker-engine
 apt-get install -y docker-ce
 
 # install kubectl
@@ -67,7 +77,7 @@ deb http://apt.kubernetes.io/ kubernetes-xenial main
 EOF
 apt-get update
 # Install docker if you don't have it already.
-apt-get install -y docker-engine
+#apt-get install -y docker-engine
 apt-get install -y kubelet kubeadm kubernetes-cni
 
 ```
@@ -75,6 +85,8 @@ apt-get install -y kubelet kubeadm kubernetes-cni
 # on Master node:
 ```
 kubeadm init
+kubectl taint nodes --all node-role.kubernetes.io/master-
+kubectl apply -f http://docs.projectcalico.org/v2.3/getting-started/kubernetes/installation/hosted/kubeadm/1.6/calico.yaml
 ```
 And capture the output from the above command. e.g.
 ```

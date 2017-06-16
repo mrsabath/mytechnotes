@@ -1,0 +1,20 @@
+current-context: service-account-context
+apiVersion: v1
+kind: Config
+contexts:
+- context:
+    cluster: local
+    user: admin
+    namespace: default
+  name: service-account-context
+clusters:
+- name: local
+  cluster:
+    certificate-authority: /var/run/kubernetes/ca.pem
+    apiVersion: v1
+    server: https://10.143.100.209:443
+users:
+- name: admin
+  user:
+    client-certificate: /var/run/kubernetes/admin.pem
+    client-key: /var/run/kubernetes/admin-key.pem
