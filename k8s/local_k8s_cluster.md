@@ -1,4 +1,52 @@
-# Install Kubeadm locally, using Vagrant. 1 master + 3 workers
+# Install K8s cluster locally, using Vagrant. 1 master + 3 workers
+Follow the `system-admin` steps https://github.ibm.com/alchemy-containers/fr8r-ansible/tree/master/examples
+
+create the VMs
+```
+git clone git@github.ibm.com:alchemy-containers/fr8r-ansible.git
+cd fr8r-ansible/examples/vagrant
+vi ../envs/dev-vbox/vagrant_config.rb #change to 3 workers
+vi ../examples/envs/dev-vbox/shard1.hosts # add 2 more worker IPs
+./quickstart.sh system-admin
+```
+
+install Fr8r (k8s cluster):
+```
+vagrant ssh installer
+cd fr8r/ansible/
+ansible-playbook -v -i ../examples/envs/dev-vbox/shard1.hosts env-basics.yml -e "envs=../examples/envs env_name=dev-vbox"
+ansible-playbook -v -i ../examples/envs/dev-vbox/shard1.hosts shard.yml -e "envs=../examples/envs cluster_name=dev-vbox-shard1 network_kind=calico"
+```
+
+test the k8s cluster:
+```
+vagrant ssh shard1-master
+kubectl get nodes
+```
+
+move the certs to your local system from `master`:
+```
+/etc/kubernetes/creds to
+/Users/sabath/.fr8r/envs/dev-vbox/admin-certs
+export KUBECONFIG=/Users/sabath/.fr8r/envs/dev-vbox/admin-certs/kube-config
+```
+
+Cleanup the Vagrant VMs:
+
+```
+vagrant destroy -f api-proxy client installer
+vagrant status
+
+# create a vagrant snapshot:
+vagrant snapshot save shard1-master1 k8s-master
+vagrant snapshot save shard1-worker1 k8s-worker1
+vagrant snapshot list
+vagrant snapshot restore k8s-master
+vagrant snapshot delete k8s-master
+```
+
+## Other docs that don't work well:
+
 git@github.com:jeremievallee/kubernetes-vagrant-ansible.git
 cd kubernetes-vagrant-ansible
 

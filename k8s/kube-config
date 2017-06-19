@@ -10,11 +10,11 @@ contexts:
 clusters:
 - name: local
   cluster:
-    certificate-authority: /var/run/kubernetes/ca.pem
+    certificate-authority: /Users/sabath/.fr8r/envs/dev-vbox/admin-certs/ca.pem
     apiVersion: v1
-    server: https://10.143.100.209:443
+    server: https://192.168.10.2:443
 users:
 - name: admin
   user:
-    client-certificate: /var/run/kubernetes/admin.pem
-    client-key: /var/run/kubernetes/admin-key.pem
+    client-certificate: /Users/sabath/.fr8r/envs/dev-vbox/admin-certs/admin.pem
+    client-key: /Users/sabath/.fr8r/envs/dev-vbox/admin-certs/admin-key.pem
