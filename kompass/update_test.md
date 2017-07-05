@@ -2,11 +2,25 @@
 
 ## setup creds on silesia using `iris-poc1` cluster:
 ```
+# IRIS POC: KUBECONFIG=/Users/sabath/.fr8r/envs/iris-poc1/shard1/admin/kube-config
 export KUBECONFIG=/Users/sabath/.fr8r/envs/fyre-01/radiant01/admin/kube-config
-export KUBECONFIG=/Users/sabath/.fr8r/envs/iris-poc1/shard1/admin/kube-config
 # iris armada
 export KUBECONFIG=/Users/sabath/.bluemix/plugins/container-service/clusters/ksquad-dal12-01/kube-config-dal12-ksquad-dal12-01.ym
 ```
+
+## HELM deploy
+```console
+# list
+helm list --all
+# install
+helm install --name=update-planner --namespace=default --set docker.tag=devel ./charts/update-planner
+helm install --name=update-req --namespace=default ./charts/update-req
+helm install --name=update-executor --namespace=default --set docker.tag=devel  ./charts/update-executor
+helm delete --purge update-executor update-req update-planner
+
+
+```
+
 ## run tests:
 ```
 cd /Users/sabath/workspace/alchemy-containers/fr8r-ansible/examples/apps/k8s
