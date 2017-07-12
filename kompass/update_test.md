@@ -17,8 +17,12 @@ helm install --name=update-planner --namespace=default --set docker.tag=devel ./
 helm install --name=update-req --namespace=default ./charts/update-req
 helm install --name=update-executor --namespace=default --set docker.tag=devel  ./charts/update-executor
 helm delete --purge update-executor update-req update-planner
+```
 
+## uncordon all nodes:
 
+```
+for N in $(kubectl get node | grep SchedulingDisabled | awk '{ print $1 }');do kubectl uncordon $N; done
 ```
 
 ## run tests:

@@ -5,7 +5,7 @@
 
 ```
 brew install kubectl
-# or 
+# or
 curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/darwin/amd64/kubectl
 
 chmod +x kubectl
@@ -59,6 +59,10 @@ curl --key ${DIR}/admin-key.pem --cert ${DIR}/admin.pem  --cacert ${DIR}/ca.pem 
 kubectl --v=10 get pods
 ```
 
+## uncordon all nodes:
+```
+for I in $(kubectl get node | grep SchedulingDisabled | awk '{ print $1 }');do kubectl uncordon $I; done
+```
 
 ## setup kubectl:
 ```
