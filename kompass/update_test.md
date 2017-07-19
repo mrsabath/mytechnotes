@@ -19,6 +19,12 @@ helm install --name=update-executor --namespace=default --set docker.tag=devel  
 helm delete --purge update-executor update-req update-planner
 ```
 
+# review results of inventories
+```
+kubectl get inventories  -ojson | jq ".items[].status"
+kubectl get inventories  -ojson | jq ".items[].metadata.name"
+```
+
 ## uncordon all nodes:
 
 ```
