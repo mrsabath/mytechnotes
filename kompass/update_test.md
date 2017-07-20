@@ -21,6 +21,7 @@ helm delete --purge update-executor update-req update-planner
 
 # review results of inventories
 ```
+kubectl get inventories  -o json | jq '.items[] | ([.metadata.name, .status ])'
 kubectl get inventories  -ojson | jq ".items[].status"
 kubectl get inventories  -ojson | jq ".items[].metadata.name"
 ```
