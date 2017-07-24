@@ -15,9 +15,22 @@ helm list --all
 # install
 helm install --name=update-planner --namespace=default --set docker.tag=devel ./charts/update-planner
 helm install --name=update-req --namespace=default ./charts/update-req
-helm install --name=update-executor --namespace=default --set docker.tag=devel  ./charts/update-executor
+helm install --name=update-executor --namespace=default --set docker.tag=devel  --set executor.podCount=2 ./charts/update-executor
 helm delete --purge update-executor update-req update-planner
+# tests:
+helm install --name=synthetic-load --namespace=default --set webService.podCount=15 --set webDeplGroup.podCount=10 ./charts/synthetic-load
 ```
+
+Testing...
+```
+# list pods for on all nodes:
+kubectl describe nodes | grep Non-terminated
+# cleanup after leftovers:
+for m in `kubectl get pods | grep web-ms- | awk {'print $1'}`;do kubectl delete pod $m; done
+# list inventory status:
+kubectl get inventories  -o json | jq '.items[] | ([.metadata.name, .status ])'
+```
+
 
 # review results of inventories
 ```
