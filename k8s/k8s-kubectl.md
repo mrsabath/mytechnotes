@@ -214,3 +214,9 @@ curl  --key /etc/kubernetes/cert/admin-key.pem --cert /etc/kubernetes/cert/admin
 brew rm curl && brew install curl --with-openssl
 https://coderwall.com/p/h3zzrw/using-client-ssl-certificates-for-php-curl-requests-on-osx
 ```
+
+
+## Events:
+```
+kubectl get ev -w --watch-only=true | grep Pod 
+```

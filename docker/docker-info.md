@@ -8,6 +8,19 @@
 docker run -d centos tail -f /dev/null
 ```
 
+## run command `date` inside the container and exit:
+```
+docker run ubuntu:14.04 date --help
+docker run ubuntu:latest date
+docker run ubuntu:14.04 ls /
+```
+
+## create docker and get inside:
+```
+docker run -it ubuntu:14.04 /bin/bash
+```
+
+
 ## running docker APIs:
 ## inspect container
 ```
