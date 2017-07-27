@@ -31,6 +31,14 @@ for m in `kubectl get pods | grep web-ms- | awk {'print $1'}`;do kubectl delete 
 kubectl get inventories  -o json | jq '.items[] | ([.metadata.name, .status ])'
 ```
 
+Testing DNS problems
+```
+kubectl run curl --image=radial/busyboxplus:curl -i --tty
+nslookup kubernetes.default
+#re-attach to this container
+kubectl attach curl2-449093818-0m2tf -c curl2 -i -t
+# delete kube-dns and vpn pods. This should fix the problem
+```
 
 # review results of inventories
 ```
