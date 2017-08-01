@@ -5,7 +5,7 @@
 # IRIS POC: KUBECONFIG=/Users/sabath/.fr8r/envs/iris-poc1/shard1/admin/kube-config
 export KUBECONFIG=/Users/sabath/.fr8r/envs/fyre-01/radiant01/admin/kube-config
 # iris armada
-export KUBECONFIG=/Users/sabath/.bluemix/plugins/container-service/clusters/ksquad-dal12-01/kube-config-dal12-ksquad-dal12-01.ym
+export KUBECONFIG=/Users/sabath/.bluemix/plugins/container-service/clusters/ksquad-dal12-01/kube-config-dal12-ksquad-dal12-01.yml
 ```
 
 ## HELM deploy
