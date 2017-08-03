@@ -29,6 +29,11 @@ kubectl describe nodes | grep Non-terminated
 for m in `kubectl get pods | grep web-ms- | awk {'print $1'}`;do kubectl delete pod $m; done
 # list inventory status:
 kubectl get inventories  -o json | jq '.items[] | ([.metadata.name, .status ])'
+# display nodes:
+command="kubectl get nodes"
+while true; do NOW=$(date +%s); $command; NOW2=$(date +%s);echo $(($NOW2-$NOW)); sleep 2; done
+# display pods on each node:
+while true; do kubectl describe nodes | grep -E '(Name:|Non-terminated)'; echo "----"; sleep 2; done
 ```
 
 Testing DNS problems
