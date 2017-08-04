@@ -71,7 +71,10 @@ kubectl scale deployment $name --replicas 10
 # drain node:
 kubectl drain --ignore-daemonsets --force --delete-local-data $nodes
 # uncordon_all:
+for m in `kubectl get nodes | grep SchedulingDisabled | awk {'print $1'}`;do kubectl uncordon $m; done
 for m in `kubectl get nodes -l update=true | grep SchedulingDisabled | awk {'print $1'}`;do kubectl uncordon $m; done
+# cordon all:
+for m in `kubectl get nodes | grep Ready | awk {'print $1'}`;do kubectl cordon $m; done
 ```
 
 ## web server testing:
