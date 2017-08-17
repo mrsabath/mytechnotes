@@ -39,8 +39,8 @@ while true; do kubectl describe nodes | grep -E '(Name:|Non-terminated)'; echo "
 ```
 nodename=169.47.109.232
 kubectl drain --ignore-daemonsets --force --delete-local-data $nodename
-bxnodeid=$(bx cs workers ksquad-dal12-01 | grep $nodename | awk '{ print $1 }');bx cs worker-reload  ksquad-dal12-01 $bxnodeid -f --hel
-command="bx cs workers ksquad-dal12-01"
+bxnodeid=$(bx cs workers RIS-DEV-DAL12-01 | grep $nodename | awk '{ print $1 }');bx cs worker-reload  RIS-DEV-DAL12-01 $bxnodeid -f --hel
+command="bx cs workers RIS-DEV-DAL12-01"
 NOW=$(date +%s);while true; do $command;NOW2=$(date +%s);echo $(($NOW2-$NOW)); sleep 2; done  
 ```
 
