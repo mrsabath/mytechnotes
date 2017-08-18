@@ -5,7 +5,7 @@
 # IRIS POC: KUBECONFIG=/Users/sabath/.fr8r/envs/iris-poc1/shard1/admin/kube-config
 export KUBECONFIG=/Users/sabath/.fr8r/envs/fyre-01/radiant01/admin/kube-config
 # iris armada
-export KUBECONFIG=/Users/sabath/.bluemix/plugins/container-service/clusters/ksquad-dal12-01/kube-config-dal12-ksquad-dal12-01.yml
+KUBECONFIG=/Users/sabath/.bluemix/plugins/container-service/clusters/RIS-DEV-DAL12-01/kube-config-dal12-RIS-DEV-DAL12-01.yml
 ```
 
 ## HELM deploy
@@ -15,7 +15,8 @@ helm list --all
 # install
 helm install --name=update-planner --namespace=default --set docker.tag=devel ./charts/update-planner
 helm install --name=update-req --namespace=default ./charts/update-req
-helm install --name=update-executor --namespace=default --set docker.tag=devel  --set executor.podCount=2 ./charts/update-executor
+helm install --name=update-req --namespace=default --set bluemix.clusterName=RIS-DEV-DAL12-01 ./charts/update-req.armada
+helm install --name=update-executor --namespace=default --set docker.tag=devel  --set executor.podCount=2 --set secret.name=update-srv-secret ./charts/update-executor
 helm delete --purge update-executor update-req update-planner
 # tests:
 helm install --name=synthetic-load --namespace=default --set webService.podCount=15 --set webDeplGroup.podCount=10 ./charts/synthetic-load
@@ -41,7 +42,7 @@ nodename=169.47.109.232
 kubectl drain --ignore-daemonsets --force --delete-local-data $nodename
 bxnodeid=$(bx cs workers RIS-DEV-DAL12-01 | grep $nodename | awk '{ print $1 }');bx cs worker-reload  RIS-DEV-DAL12-01 $bxnodeid -f --hel
 command="bx cs workers RIS-DEV-DAL12-01"
-NOW=$(date +%s);while true; do $command;NOW2=$(date +%s);echo $(($NOW2-$NOW)); sleep 2; done  
+NOW=$(date +%s);while true; do $command | grep -v normal | grep -v ID | grep -v OK;NOW2=$(date +%s);echo $(($NOW2-$NOW)); sleep 2; done  
 ```
 
 

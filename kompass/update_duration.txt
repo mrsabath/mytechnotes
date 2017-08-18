@@ -1,0 +1,1765 @@
+silesia:update-service sabath$ NOW=$(date +%s);while true; do $command;NOW2=$(date +%s);echo $(($NOW2-$NOW)); sleep 2; done
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal           Ready
+2
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal           Ready
+6
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal           Ready
+11
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal           Ready
+15
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal           Ready
+19
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal           Ready
+23
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal           Ready
+28
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal           Ready
+32
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal           Ready
+37
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal           Ready
+43
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal           Ready
+48
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal           Ready
+52
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal           Ready
+57
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal           Ready
+62
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal           Ready
+66
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal           Ready
+71
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal           Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal           Ready
+77
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+81
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+85
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+90
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+94
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+98
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+102
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+112
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+116
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+120
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+124
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+128
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+132
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+136
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+140
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+144
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+149
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+154
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+158
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+163
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+167
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+171
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+176
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+180
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+185
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+189
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+194
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+199
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+204
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+208
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+212
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+217
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+224
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+230
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+234
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+239
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+243
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+247
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+257
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+261
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+265
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+270
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal      Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal      Ready
+274
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State      Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal     Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal     Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloaded   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal     Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal     Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal     Ready
+279
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State      Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal     Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal     Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloaded   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal     Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal     Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal     Ready
+284
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+288
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+292
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+296
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+301
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+305
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+309
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+314
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+318
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+322
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+327
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+331
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+337
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+342
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+347
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+352
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+356
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+361
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+365
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+370
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+375
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+379
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+384
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+389
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+395
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+403
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+408
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+413
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+418
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+423
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+428
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+434
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+440
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+444
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+448
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+452
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+456
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing docker
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+466
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing docker
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+470
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing docker
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+475
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing docker
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+480
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing docker
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+484
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing docker
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+488
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing docker
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+493
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing docker
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+499
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing docker
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+503
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting worker deployment
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+508
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting worker deployment
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+513
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting worker deployment
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+517
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting worker deployment
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+522
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting worker deployment
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+529
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting worker deployment
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+533
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting worker deployment
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+539
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting worker deployment
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+543
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting worker deployment
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+548
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting worker deployment
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+552
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Beginning Deploy
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+557
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+562
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+567
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+571
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+576
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+581
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+585
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+590
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+595
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+599
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+604
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+609
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+614
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+618
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Configuring Kubectl CLI
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+626
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Configuring Kubectl CLI
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+630
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Configuring Kubectl CLI
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+635
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Configuring Kubectl CLI
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+640
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Preparing Worker for Calico Networking Setup
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+644
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Preparing Worker for Calico Networking Setup
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+649
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Preparing Worker for Calico Networking Setup
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+653
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Preparing Worker for Calico Networking Setup
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+658
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Preparing Worker for Calico Networking Setup
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+662
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Preparing Worker for Calico Networking Setup
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+667
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting Kube Worker Services
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+672
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting Kube Worker Services
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+677
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting Kube Worker Services
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+682
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Configuring Calico Networking
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+686
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Configuring Calico Networking
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+691
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Configuring Calico Networking
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal          Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal          Ready
+702
+
+Plugin version 0.1.304 is now available. To update run: bx plugin update container-service -r Bluemix
+
+OK
+ID                                                 Public IP        Private IP      Machine Type   State    Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w1   169.47.103.200   10.184.112.21   b1c.4x16       normal   Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w2   169.47.103.195   10.184.112.25   b1c.4x16       normal   Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       normal   Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w4   169.47.103.202   10.184.112.23   b1c.4x16       normal   Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w5   169.47.103.198   10.184.112.27   b1c.4x16       normal   Ready
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w6   169.47.103.203   10.184.112.20   b1c.4x16       normal   Ready
+707

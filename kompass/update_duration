@@ -1,0 +1,744 @@
+```
+nodename=169.47.109.232
+kubectl drain --ignore-daemonsets --force --delete-local-data $nodename
+bxnodeid=$(bx cs workers RIS-DEV-DAL12-01 | grep $nodename | awk '{ print $1 }');bx cs worker-reload  RIS-DEV-DAL12-01 $bxnodeid -f
+command="bx cs workers RIS-DEV-DAL12-01 | grep -v normal | grep -v ID | grep -v OK"
+NOW=$(date +%s);while true; do $command;NOW2=$(date +%s);echo $(($NOW2-$NOW)); sleep 2; done
+```
+
+
+silesia:update-service sabath$ NOW=$(date +%s);while true; do $command;NOW2=$(date +%s);echo $(($NOW2-$NOW)); sleep 2; done
+
+
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+2
+
+
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+6
+
+
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+11
+
+
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+15
+
+
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+19
+
+
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+23
+
+
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+28
+
+
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+32
+
+
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+37
+
+
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+43
+
+
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+48
+
+
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+52
+
+
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   Deploy Automation Running
+57
+
+
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   -
+62
+
+
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   -
+66
+
+
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   -
+71
+
+
+ID                                                 Public IP        Private IP      Machine Type   State            Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reload_pending   -
+77
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   -
+81
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   -
+85
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   -
+90
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+94
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+98
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+102
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+112
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+116
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+120
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+124
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+128
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+132
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+136
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+140
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+144
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+149
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+154
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+158
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+163
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+167
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+171
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+176
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+180
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+185
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+189
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+194
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+199
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+204
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+208
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+212
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+217
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+224
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+230
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+234
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+239
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+243
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+247
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+257
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+261
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+265
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+270
+
+
+ID                                                 Public IP        Private IP      Machine Type   State       Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloading   Waiting for transactions to complete: Register Phycical license
+274
+
+
+ID                                                 Public IP        Private IP      Machine Type   State      Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloaded   -
+279
+
+
+ID                                                 Public IP        Private IP      Machine Type   State      Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       reloaded   -
+284
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+288
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+292
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+296
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+301
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+305
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+309
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+314
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+318
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+322
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+327
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+331
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+337
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+342
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+347
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+352
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+356
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+361
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+365
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+370
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+375
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+379
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+384
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+389
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+395
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+403
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+408
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+413
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+418
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+423
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+428
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+434
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+440
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+444
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+448
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+452
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   -
+456
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing docker
+466
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing docker
+470
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing docker
+475
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing docker
+480
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing docker
+484
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing docker
+488
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing docker
+493
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing docker
+499
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing docker
+503
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting worker deployment
+508
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting worker deployment
+513
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting worker deployment
+517
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting worker deployment
+522
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting worker deployment
+529
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting worker deployment
+533
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting worker deployment
+539
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting worker deployment
+543
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting worker deployment
+548
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting worker deployment
+552
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Beginning Deploy
+557
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+562
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+567
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+571
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+576
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+581
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+585
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+590
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+595
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+599
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+604
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+609
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+614
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Installing Docker Runtime
+618
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Configuring Kubectl CLI
+626
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Configuring Kubectl CLI
+630
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Configuring Kubectl CLI
+635
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Configuring Kubectl CLI
+640
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Preparing Worker for Calico Networking Setup
+644
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Preparing Worker for Calico Networking Setup
+649
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Preparing Worker for Calico Networking Setup
+653
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Preparing Worker for Calico Networking Setup
+658
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Preparing Worker for Calico Networking Setup
+662
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Preparing Worker for Calico Networking Setup
+667
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting Kube Worker Services
+672
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting Kube Worker Services
+677
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Starting Kube Worker Services
+682
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Configuring Calico Networking
+686
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Configuring Calico Networking
+691
+
+
+ID                                                 Public IP        Private IP      Machine Type   State           Status
+kube-dal12-cr0d7bb9ac142c4a0b96e5442ae3f4cc54-w3   169.47.103.204   10.184.112.19   b1c.4x16       bootstrapping   Configuring Calico Networking
+702
+
+
+ID                                                 Public IP        Private IP      Machine Type   State    Status
+707
