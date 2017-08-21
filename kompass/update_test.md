@@ -13,10 +13,13 @@ KUBECONFIG=/Users/sabath/.bluemix/plugins/container-service/clusters/RIS-DEV-DAL
 # list
 helm list --all
 # install
-helm install --name=update-planner --namespace=default --set docker.tag=devel ./charts/update-planner
-helm install --name=update-req --namespace=default ./charts/update-req
-helm install --name=update-req --namespace=default --set bluemix.clusterName=RIS-DEV-DAL12-01 ./charts/update-req.armada
+helm install --name=update-planner --namespace=default --set docker.tag=devel --set planer.type=SIMOPT ./charts/update-planner
 helm install --name=update-executor --namespace=default --set docker.tag=devel  --set executor.podCount=2 --set secret.name=update-srv-secret ./charts/update-executor
+helm install --name=update-req --namespace=default ./charts/update-req
+# no reinstall
+helm install --name=update-req --namespace=default ./charts/update-req.noreload
+helm install --name=update-req --namespace=default --set bluemix.clusterName=RIS-DEV-DAL12-01 ./charts/update-req.armada
+
 helm delete --purge update-executor update-req update-planner
 # tests:
 helm install --name=synthetic-load --namespace=default --set webService.podCount=15 --set webDeplGroup.podCount=10 ./charts/synthetic-load
@@ -30,9 +33,11 @@ kubectl describe nodes | grep Non-terminated
 for m in `kubectl get pods | grep web-ms- | awk {'print $1'}`;do kubectl delete pod $m; done
 # list inventory status:
 kubectl get inventories  -o json | jq '.items[] | ([.metadata.name, .status ])'
+# list pod count on nodes:
+kubectl describe nodes | grep -E '(Non-terminated|ExternalID)'
 # display nodes:
 command="kubectl get nodes"
-while true; do NOW=$(date +%s); $command; NOW2=$(date +%s);echo $(($NOW2-$NOW)); sleep 2; done
+NOW=$(date +%s);while true; do $command; NOW2=$(date +%s);echo $(($NOW2-$NOW)); sleep 2; done
 # display pods on each node:
 while true; do kubectl describe nodes | grep -E '(Name:|Non-terminated)'; echo "----"; sleep 2; done
 ```
