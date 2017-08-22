@@ -12,12 +12,12 @@ KUBECONFIG=/Users/sabath/.bluemix/plugins/container-service/clusters/RIS-DEV-DAL
 ```console
 # list
 helm list --all
-# install
+# install planner and executor
 helm install --name=update-planner --namespace=default --set docker.tag=devel --set planer.type=SIMOPT ./charts/update-planner
 helm install --name=update-executor --namespace=default --set docker.tag=devel  --set executor.podCount=2 --set secret.name=update-srv-secret ./charts/update-executor
+# instal update request
 helm install --name=update-req --namespace=default ./charts/update-req
-# no reinstall
-helm install --name=update-req --namespace=default ./charts/update-req.noreload
+# install update request for Armada:
 helm install --name=update-req --namespace=default --set bluemix.clusterName=RIS-DEV-DAL12-01 ./charts/update-req.armada
 
 helm delete --purge update-executor update-req update-planner
