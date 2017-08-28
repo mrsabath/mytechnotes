@@ -57,6 +57,10 @@ command="bx cs workers RIS-DEV-DAL12-01"
 NOW=$(date +%s);while true; do $command | grep -v normal | grep -v ID | grep -v OK;NOW2=$(date +%s);echo $(($NOW2-$NOW)); sleep 2; done  
 ```
 
+## Protecting the node from reload
+```
+kubectl label nodes 9.59.150.11 protected=true
+```
 
 Testing DNS problems
 ```
