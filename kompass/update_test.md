@@ -59,7 +59,8 @@ NOW=$(date +%s);while true; do $command | grep -v normal | grep -v ID | grep -v 
 
 ## Protecting the node from reload
 ```
-kubectl label nodes 9.59.150.11 protected=true
+kubectl label nodes $NODE_NAME protected=true
+kubectl get nodes -l protected=true
 ```
 
 Testing DNS problems
