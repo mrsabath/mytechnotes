@@ -63,6 +63,12 @@ kubectl label nodes $NODE_NAME protected=true
 kubectl get nodes -l protected=true
 ```
 
+```
+kubectl describe nodes | grep -E '(Name:)' | cut -c6- | awk -F ' ' '{print $1}' | xargs -d'\n' | awk '{$1=$1}1' OFS=",";  \
+while true; do kubectl describe nodes | grep -E '(Non-terminated)' | cut -c24- | awk -F ' ' '{print $1}' | xargs  -d'\n' | awk '{$1=$1}1' OFS=",";  sleep 2; done;
+```
+
+
 Testing DNS problems
 ```
 kubectl run curl --image=radial/busyboxplus:curl -i --tty
