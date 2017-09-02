@@ -21,7 +21,6 @@ helm install --name=update-executor --namespace=default --set docker.tag=devel  
 # instal update request
 helm install --name=update-req --namespace=default ./charts/update-req
 # install update request for Armada:
-helm install --name=update-req --namespace=default --set bluemix.clusterName=RIS-DEV-DAL12-01 ./charts/update-req.armada
 helm install --name=update-req --namespace=default --set bluemix.clusterName=RIS-DEV-DAL12-01 \
 ./charts/update-req.armada
 
