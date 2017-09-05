@@ -55,6 +55,11 @@ bxnodeid=$(bx cs workers RIS-DEV-DAL12-01 | grep $nodename | awk '{ print $1 }')
 command="bx cs workers RIS-DEV-DAL12-01"
 NOW=$(date +%s);while true; do $command | grep -v normal | grep -v ID | grep -v OK;NOW2=$(date +%s);echo $(($NOW2-$NOW)); sleep 2; done  
 ```
+## listing current pod count:
+```
+kubectl describe nodes | grep -E '(Name:)' | cut -c6- | awk -F ' ' '{print $1}' | paste -sd "," -
+while true; do kubectl describe nodes | grep -E '(Non-terminated)' | cut -c24- | awk -F ' ' '{print $1}' | paste -sd "," - ;  sleep 2; done;
+```
 
 ## Protecting the node from reload
 ```
