@@ -13,8 +13,7 @@ KUBECONFIG=/Users/sabath/.bluemix/plugins/container-service/clusters/RIS-DEV-DAL
 # list
 helm list --all
 # install planner
-helm install --name=update-planner --namespace=default --set docker.tag=devel --set planner.type=SIMOPT ./charts/update-planner
-helm install --name=update-planner --namespace=default --set docker.tag=devel --set planner.type=SIMOPT --set planner.ClusterAvailPodPerc=0.5 ./charts/update-planner
+helm install --name=update-planner --namespace=default --set docker.tag=devel --set planner.type=SIMOPT --set planner.ClusterAvailPodPerc=0.75 ./charts/update-planner
 # install executor
 helm install --name=update-executor --namespace=default --set docker.tag=devel  --set executor.podCount=2 ./charts/update-executor
 helm install --name=update-executor --namespace=default --set docker.tag=devel  --set executor.podCount=2 --set secret.name=update-srv-secret ./charts/update-executor
