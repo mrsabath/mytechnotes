@@ -45,6 +45,7 @@ NOW=$(date +%s);while true; do $command; NOW2=$(date +%s);echo $(($NOW2-$NOW)); 
 while true; do kubectl describe nodes | grep -E '(Name:|Non-terminated)'; echo "----"; sleep 2; done
 # Planner:
 kubectl logs -f $(kubectl get pods | grep planner | awk -F ' ' '{print $1}') | grep "###PLANNER: Locked Set"
+kubectl logs -f $EXECUTOR |grep -E 'String node \"([0-9]{1,3}\.){3}[0-9]{1,3}\" drained'
 ```
 ## timing the reload
 ```
@@ -58,6 +59,11 @@ NOW=$(date +%s);while true; do $command | grep -v normal | grep -v ID | grep -v 
 ```
 kubectl describe nodes | grep -E '(Name:)' | cut -c6- | awk -F ' ' '{print $1}' | paste -sd "," -
 while true; do kubectl describe nodes | grep -E '(Non-terminated)' | cut -c24- | awk -F ' ' '{print $1}' | paste -sd "," - ;  sleep 2; done;
+
+# with elapsed time:
+kubectl describe nodes | grep -E '(Name:)' | cut -c6- | awk -F ' ' '{print $1}' | paste -sd "," -
+START=$(date +%s);while true; do NOW=$(date +%s);(echo $(($NOW-$START)) && (kubectl describe nodes | grep -E '(Non-terminated)' | cut -c24- | awk -F ' ' '{print $1}')) | paste -sd "," - ;  done;
+
 ```
 
 ## Protecting the node from reload
