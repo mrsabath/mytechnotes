@@ -14,6 +14,7 @@ KUBECONFIG=/Users/sabath/.bluemix/plugins/container-service/clusters/RIS-DEV-DAL
 helm list --all
 # install planner
 helm install --name=update-planner --namespace=default --set docker.tag=devel --set planner.type=SIMOPT --set planner.ClusterAvailPodPerc=0.75 ./charts/update-planner
+helm install --name=update-planner --namespace=default --set docker.tag=devel --set planner.type=SEQ  ./charts/update-planner
 # install executor
 helm install --name=update-executor --namespace=default --set docker.tag=devel  --set executor.podCount=2 ./charts/update-executor
 helm install --name=update-executor --namespace=default --set docker.tag=devel  --set executor.podCount=2 --set secret.name=update-srv-secret ./charts/update-executor
@@ -57,10 +58,14 @@ NOW=$(date +%s);while true; do $command | grep -v normal | grep -v ID | grep -v 
 ```
 ## listing current pod count:
 ```
+# new with elapsed time:
+(START=$(date +%s);nodes=($(kubectl get nodes | sed '1d' | awk '{print $1}' | sort)); (echo "TIME"; for k in ${nodes[@]}; do echo "$k"; done;) | paste -sd ',' - ;while true; do NOW=$(date +%s); (echo $(($NOW-$START)) && ((for k in ${nodes[@]}; do echo "0 $k"; done;) && (kubectl get pods --all-namespaces -o wide | sed '1d' | awk '$4!="Terminated"' | awk '{print $8}' | sort | uniq -c | sort -k 2 )) | awk '{a[$2]+=$1} END{for (i in a) print a[i],i}' | sort -k 2 | awk '{print $1}') | paste -sd ',' -;while [[ $(date +%s) -eq "$NOW" ]]; do sleep 0.2; done; done)
+
+# old
 kubectl describe nodes | grep -E '(Name:)' | cut -c6- | awk -F ' ' '{print $1}' | paste -sd "," -
 while true; do kubectl describe nodes | grep -E '(Non-terminated)' | cut -c24- | awk -F ' ' '{print $1}' | paste -sd "," - ;  sleep 2; done;
 
-# with elapsed time:
+# old with elapsed time:
 kubectl describe nodes | grep -E '(Name:)' | cut -c6- | awk -F ' ' '{print $1}' | paste -sd "," -
 START=$(date +%s);while true; do NOW=$(date +%s);(echo $(($NOW-$START)) && (kubectl describe nodes | grep -E '(Non-terminated)' | cut -c24- | awk -F ' ' '{print $1}')) | paste -sd "," - ;  done;
 
