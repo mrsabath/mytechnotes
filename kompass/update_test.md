@@ -75,6 +75,8 @@ START=$(date +%s);while true; do NOW=$(date +%s);(echo $(($NOW-$START)) && (kube
 ```
 kubectl label nodes $NODE_NAME protected=true
 kubectl get nodes -l protected=true
+# delete a label
+kubectl label nodes $NODE_NAME protected-
 ```
 
 ```
