@@ -71,6 +71,19 @@ START=$(date +%s);while true; do NOW=$(date +%s);(echo $(($NOW-$START)) && (kube
 
 ```
 
+## waiting for reload completion:
+```
+# w/ timestamp:
+START=$(date +%s);while true; do NOW=$(date +%s);echo $(($NOW-$START)); bx cs workers RIS-DEV-DAL12-01 | grep 10.184.112.21 | grep Ready | grep normal | grep -v Not;  if [[ "$?" == "0" ]]; then break; fi; done;
+
+# w/o timestamp
+sleep 120;while true; do bx cs workers RIS-DEV-DAL12-01 | grep 10.184.112.21 | grep Ready | grep normal | grep -v Not; if [[ "$?" == "0" ]]; then break; fi; done;
+
+sleep 120;while true; do /usr/local/bin/bx cs workers {{ .Values.bluemix.clusterName }} | grep $nodeName | grep Ready | grep normal | grep -v Not; if [[ "$?" == "0" ]]; then break; fi; done;
+
+sleep 300;bxnodeid=$(/usr/local/bin/bx cs workers {{ .Values.bluemix.clusterName }} | grep $nodeName | awk '{ print $1 }');/usr/local/bin/bx cs worker-get $bxnodeid"
+```
+
 ## Protecting the node from reload
 ```
 kubectl label nodes $NODE_NAME protected=true
