@@ -6,6 +6,9 @@
 export KUBECONFIG=/Users/sabath/.fr8r/envs/fyre-01/radiant01/admin/kube-config
 # iris armada
 KUBECONFIG=/Users/sabath/.bluemix/plugins/container-service/clusters/RIS-DEV-DAL12-01/kube-config-dal12-RIS-DEV-DAL12-01.yml
+# iris-poc1, shared w/ Brandon
+export KUBECONFIG=/Users/sabath/.fr8r/envs/iris-poc1/shard1/admin/kube-config
+
 ```
 
 ## HELM deploy
@@ -44,10 +47,21 @@ command="kubectl get nodes"
 NOW=$(date +%s);while true; do $command; NOW2=$(date +%s);echo $(($NOW2-$NOW)); sleep 2; done
 # display pods on each node:
 while true; do kubectl describe nodes | grep -E '(Name:|Non-terminated)'; echo "----"; sleep 2; done
-# Planner:
+```
+
+## show logs
+```
+# planner:
+kubectl logs -f $(kubectl get pods | grep planner | awk -F ' ' '{print $1}') | grep "###PLAN"
 kubectl logs -f $(kubectl get pods | grep planner | awk -F ' ' '{print $1}') | grep "###PLANNER: Locked Set"
+# executor 1
+kubectl logs -f $(kubectl get pods | grep executor | awk -F ' ' '{print $1}' | sed -n 1p) | grep "###EXEC"
+# executor 2
+kubectl logs -f $(kubectl get pods | grep executor | awk -F ' ' '{print $1}' | sed -n 2p) | grep "###EXEC"
+# exec, other
 kubectl logs -f $EXECUTOR |grep -E 'String node \"([0-9]{1,3}\.){3}[0-9]{1,3}\" drained'
 ```
+
 ## timing the reload
 ```
 nodename=169.47.109.232
