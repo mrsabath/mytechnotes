@@ -118,7 +118,7 @@ cat `find /var/lib/docker -name  "${container_long_id}*" | grep mounts`/init-id 
 24414060544
 24414650368
 
-## Cleanup
+## Image Cleanup (remove images)
 ```
 # delete all the temp images:
 docker images --no-trunc| grep none | awk '{print $3}' | xargs docker rmi
