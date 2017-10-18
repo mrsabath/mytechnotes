@@ -16,7 +16,7 @@ export KUBECONFIG=/Users/sabath/.fr8r/envs/iris-poc1/shard1/admin/kube-config
 # list
 helm list --all
 # install planner
-helm install --name=update-planner --namespace=default --set docker.tag=devel --set planner.type=SIMOPT --set planner.ClusterAvailPodPerc=0.75 ./charts/update-planner
+helm install --name=update-planner --namespace=default --set docker.tag=devel --set planner.type=SIMOPT --set planner.ClusterAvailPodPerc=0.25 ./charts/update-planner
 helm install --name=update-planner --namespace=default --set docker.tag=devel --set planner.type=SEQ  ./charts/update-planner
 # install executor
 helm install --name=update-executor --namespace=default --set docker.tag=devel  --set executor.podCount=2 ./charts/update-executor
@@ -56,6 +56,9 @@ kubectl logs -f $(kubectl get pods | grep planner | awk -F ' ' '{print $1}') | g
 kubectl logs -f $(kubectl get pods | grep planner | awk -F ' ' '{print $1}') | grep "###PLANNER: Locked Set"
 # executor 1
 kubectl logs -f $(kubectl get pods | grep executor | awk -F ' ' '{print $1}' | sed -n 1p) | grep "###EXEC"
+# or more highlevel:
+kubectl logs -f $(kubectl get pods | grep executor | awk -F ' ' '{print $1}' | sed -n 1p) | grep "###EXEC1"
+
 # executor 2
 kubectl logs -f $(kubectl get pods | grep executor | awk -F ' ' '{print $1}' | sed -n 2p) | grep "###EXEC"
 # exec, other
