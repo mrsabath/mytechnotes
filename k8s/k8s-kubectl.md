@@ -59,6 +59,11 @@ curl --key ${DIR}/admin-key.pem --cert ${DIR}/admin.pem  --cacert ${DIR}/ca.pem 
 kubectl --v=10 get pods
 ```
 
+## simple run command
+```
+kubectl run update-deployer --image fr8r/update-deployer:devel --command -- sleep 50000
+```
+
 ## uncordon all nodes:
 ```
 for I in $(kubectl get node | grep SchedulingDisabled | awk '{ print $1 }');do kubectl uncordon $I; done
@@ -218,5 +223,5 @@ https://coderwall.com/p/h3zzrw/using-client-ssl-certificates-for-php-curl-reques
 
 ## Events:
 ```
-kubectl get ev -w --watch-only=true | grep Pod 
+kubectl get ev -w --watch-only=true | grep Pod
 ```
