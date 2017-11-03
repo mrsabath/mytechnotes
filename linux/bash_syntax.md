@@ -149,6 +149,15 @@ ssh -o LogLevel=quiet -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/nul
 export KUBECONFIG=$(cd;pwd)/first-user/kube-config
 ```
 
+# some for loop operations
+```shell
+for N in $(kubectl get node | grep SchedulingDisabled | awk '{ print $1 }');do kubectl uncordon $N; done
+```
+
+# get first value in second row
+```shell
+kubectl logs  $(kubectl get pods | grep executor | awk -F ' ' '{print $1}' | sed -n 2p) | grep "###EXEC" > $dir/executor2.log
+```
 
 ## insert multi-line text to the file
 ```
