@@ -5,7 +5,8 @@
 # IRIS POC: KUBECONFIG=/Users/sabath/.fr8r/envs/iris-poc1/shard1/admin/kube-config
 export KUBECONFIG=/Users/sabath/.fr8r/envs/fyre-01/radiant01/admin/kube-config
 
-# IRIS Armada kompassexport KUBECONFIG=/Users/sabath/.bluemix/plugins/container-service/clusters/kompass-dev/kube-config-dal12-kompass-dev.yml
+# IRIS Armada kompass-dev:
+export KUBECONFIG=/Users/sabath/.bluemix/plugins/container-service/clusters/kompass-dev/kube-config-dal12-kompass-dev.yml
 
 # iris armada DEV
 export KUBECONFIG=/Users/sabath/.bluemix/plugins/container-service/clusters/RIS-DEV-DAL12-01/kube-config-dal12-RIS-DEV-DAL12-01.yml
