@@ -31,7 +31,7 @@ Deep copy helpers are required for the data schema of your custom resource. A da
 To regenerate the helper, simply run the following script from the root of the project:
 
 ```
-hack/hack/update-codegen.sh
+hack/update-codegen.sh
 ```
 If all goes well, you should see a message like the one below:
 
@@ -47,3 +47,14 @@ where GOPATH depends on your environment.
 cd cmd
 go build -o crsample
 ```
+
+
+## Fixing the compilation problems
+```
+create a new project e.g. kompass/update-service-test and move all the
+files that compile there.
+pkg, glide.yml etc
+remove glide.lock
+run glide up -v
+move the 'vendors' back to original project
+run the hack/update-codegen.sh script
