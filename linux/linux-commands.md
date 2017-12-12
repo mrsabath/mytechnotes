@@ -42,6 +42,11 @@ ls -Slhr
 open -a Smultron <file_name>
 ```
 
+## watch for changes
+```
+watch ls -l
+```
+
 ##list ports:
 ```
 lsof -i -P   # list open ports

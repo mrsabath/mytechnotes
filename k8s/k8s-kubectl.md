@@ -57,6 +57,7 @@ curl --key ${DIR}/admin-key.pem --cert ${DIR}/admin.pem  --cacert ${DIR}/ca.pem 
 ## debug:
 ```
 kubectl --v=10 get pods
+watch kubectl get pods
 ```
 
 ## simple run command
@@ -108,6 +109,11 @@ kubectl scale  deployment --replicas=3 k2
 kubectl get deployment
 kubectl get pods
 kubectl delete pods --all
+```
+
+## custom columns
+```
+watch kubectl get in,up -o=custom-columns=NAME:.metadata.name,STATUS:.status.state
 ```
 
 ## replicationcontroller
