@@ -45,7 +45,19 @@ where GOPATH depends on your environment.
 
 ```
 cd cmd
-go build -o crsample
+#
+cd executor
+go build -o executor
+```
+
+## Running
+```
+./executor --kubeconfig=$KUBECONFIG
+
+# from another console:
+cd ../crd
+kubectl create -f inventory.yaml
+kubectl replace -f inventory-44L.yaml
 ```
 
 
