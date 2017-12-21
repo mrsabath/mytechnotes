@@ -5,6 +5,25 @@
 brew install npm
 ```
 Follow steps [here](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)
+Mike's github https://github.ibm.com/msava/k8-test/tree/master
+My playground: /Users/sabath/projects/node_js/k8-test/
+
+Mike's note:
+```
+Here is a repo for Node.js:  https://github.ibm.com/msava/k8-test/tree/master
+you need to cd to each `/app` and `/service` and run `npm install` first to load up necessary modules (after cloning of course) (edited)
+you need to put a hidden .env file into the tree locally after cloning. (edited)
+for /app, create a file `.env` and paste:
+PORT=3001
+NODE_ENV=development
+SERVICE_URL=http://localhost:3002
+
+for /service same file but paste:
+PORT=3002
+NODE_ENV=development
+
+`npm start` should work for each.  http://localhost:3002 should bring up a service with json returning.  http://localhost:3001/service is the app calling that service url..
+```
 
 516  vi .dockerignore
  517  docker build -t mrsabath/node-web-app .
@@ -126,3 +145,28 @@ Date: Wed, 20 Dec 2017 15:05:48 GMT
 Connection: keep-alive
 
 <!DOCTYPE html><html><head><title>Express</title><link rel="stylesheet" href="/stylesheets/style.css"></head><body><h1>Express</h1><p>Welcome to Express</p></body></html>Silesia:app sabath$
+
+## Final testing:
+```
+silesia:crd sabath$ curl -i http://kompass-dev.us-south.containers.mybluemix.net:31001
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: text/html; charset=utf-8
+Content-Length: 170
+ETag: W/"aa-SNfgj6aecdqLGkiTQbf9lQ"
+Date: Thu, 21 Dec 2017 13:46:12 GMT
+Connection: keep-alive
+
+<!DOCTYPE html><html><head><title>Express</title><link rel="stylesheet" href="/stylesheets/style.css"></head><body><h1>Express</h1><p>Welcome to Express</p></body></html>silesia:crd sabath$
+silesia:crd sabath$
+silesia:crd sabath$ curl -i http://kompass-dev.us-south.containers.mybluemix.net:31001/service
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 19
+ETag: W/"13-T/cRC9ueNuYVFeL2rMyC1w"
+Date: Thu, 21 Dec 2017 13:46:17 GMT
+Connection: keep-alive
+
+{"title":"Express"}
+```
