@@ -60,6 +60,19 @@ kubectl create -f inventory.yaml
 kubectl replace -f inventory-44L.yaml
 ```
 
+## Testing
+```
+kubectl get crd
+NAME                              KIND
+inventories.up.client-go.k8s.io   CustomResourceDefinition.v1beta1.apiextensions.k8s.io
+updates.up.client-go.k8s.io       CustomResourceDefinition.v1beta1.apiextensions.k8s.io
+
+kubectl get inventories (or in)
+kubectl get updates (or up)
+
+kubectl delete crd inventories.up.client-go.k8s.io
+
+```
 
 ## Fixing the compilation problems
 ```
