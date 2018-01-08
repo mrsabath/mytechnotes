@@ -1,0 +1,3 @@
+MAILTO=sabath@us.ibm.com
+# run during lunch
+0 * * * * "/Users/sabath/Box Sync/projects/mytechnotes/push_git.sh" >> /tmp/cron.log 2>&1
