@@ -2,9 +2,6 @@
 
 ## setup creds on silesia using `iris-poc1` cluster:
 ```
-# IRIS POC: KUBECONFIG=/Users/sabath/.fr8r/envs/iris-poc1/shard1/admin/kube-config
-export KUBECONFIG=/Users/sabath/.fr8r/envs/fyre-01/radiant01/admin/kube-config
-
 # IRIS Armada kompass-dev:
 export KUBECONFIG=/Users/sabath/.bluemix/plugins/container-service/clusters/kompass-dev/kube-config-dal12-kompass-dev.yml
 
@@ -13,6 +10,8 @@ export KUBECONFIG=/Users/sabath/.bluemix/plugins/container-service/clusters/RIS-
 # iris-poc1, shared w/ Brandon
 export KUBECONFIG=/Users/sabath/.fr8r/envs/iris-poc1/shard1/admin/kube-config
 
+# IRIS POC: KUBECONFIG=/Users/sabath/.fr8r/envs/iris-poc1/shard1/admin/kube-config
+export KUBECONFIG=/Users/sabath/.fr8r/envs/fyre-01/radiant01/admin/kube-config
 ```
 
 ## HELM deploy
