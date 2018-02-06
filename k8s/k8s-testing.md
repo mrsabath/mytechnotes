@@ -1,7 +1,7 @@
 # Sample kubectl calls to test k8s:
 
 ```
-kubectl run k2 --image=busybox sleep 864000
+kubectl run bb --image=busybox sleep 864000
 kubectl run nginx1 --image=nginx --port=80  --replicas=2  --command --
 
 kubectl run web --image=mrsabath/web-ms  --replicas=2 --env="TEST=test-web-ms"
