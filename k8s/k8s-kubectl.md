@@ -24,6 +24,21 @@ kube-web-ms   1/1       Running   0          <invalid>
 vagrant@client:~$ kubectl --kubeconfig=/home/vagrant/first-user/kube-config get pods
 No resources found.
 ```
+## Simple kubectl test:
+```console
+kubectl run hello --image=busybox  -- /bin/sh -c "while true; do sleep 10; echo test; done;"
+kubectl logs -f $(kubectl get po --selector=run=hello --output=jsonpath={.items..metadata.name})
+```
+
+## various useful combinations:
+```console
+# show logs for specific pod:
+kubectl logs $(kubectl get pods  --show-all --selector=job-name=pi --output=jsonpath={.items..metadata.name})
+# show logs for first pod with this name:
+kubectl logs $(kubectl get pods --selector=app=att-client --output=jsonpath={.items..metadata.name} | awk -F ' ' '{print $1}' | sed -n 1p)
+# or
+kubectl logs -f $(kubectl get pods | grep att-client | awk -F ' ' '{print $1}' | sed -n 1p)
+```
 
 ## create alias
 ```console

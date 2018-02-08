@@ -2,6 +2,10 @@
 
 ```
 kubectl run bb --image=busybox sleep 864000
+
+kubectl run hello --image=busybox  -- /bin/sh -c "while true; do sleep 10; echo test; done;"
+kubectl logs -f $(kubectl get po --selector=run=hello --output=jsonpath={.items..metadata.name})
+
 kubectl run nginx1 --image=nginx --port=80  --replicas=2  --command --
 
 kubectl run web --image=mrsabath/web-ms  --replicas=2 --env="TEST=test-web-ms"
