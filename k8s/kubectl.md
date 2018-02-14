@@ -40,6 +40,12 @@ kubectl logs $(kubectl get pods --selector=app=att-client --output=jsonpath={.it
 kubectl logs -f $(kubectl get pods | grep att-client | awk -F ' ' '{print $1}' | sed -n 1p)
 ```
 
+UI:
+```
+kubectl proxy
+Starting to serve on 127.0.0.1:8001
+```
+
 ## create alias
 ```console
 alias k='kubectl --kubeconfig="/Users/sabath/.fr8r/envs/iris-poc1/shard1/admin/kube-config"'
