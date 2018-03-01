@@ -1,7 +1,13 @@
 # Various K8s and kubectl Commands
 
 ## install kubectl
-[instructions](https://kubernetes.io/docs/user-guide/prereqs/)
+
+install kubectl on host using Docker:
+```
+docker run -e LICENSE=accept --net=host -v /usr/local/bin:/data ibmcom/kubernetes:v1.7.3 cp /kubectl /data
+```
+
+[other instructions](https://kubernetes.io/docs/user-guide/prereqs/)
 
 ```
 brew install kubectl
