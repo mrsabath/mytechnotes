@@ -1,5 +1,11 @@
 # MAC hints:
 
+## permanently, securely remove file(s)
+```
+gshred -n 10 -v -z <filename>
+rm -f <filename>
+```
+
 
 ## open a file from a terminal
 ```
