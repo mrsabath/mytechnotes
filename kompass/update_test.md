@@ -37,6 +37,10 @@ helm install --name=synthetic-load --namespace=default --set webService.podCount
 
 Testing...
 ```
+# list status:
+watch kubectl get up,in -o custom-columns=TYPE:kind,NAME:metadata.name,STATUS:status.state
+
+
 # list pods for on all nodes:
 kubectl describe nodes | grep Non-terminated
 # cleanup after leftovers:
