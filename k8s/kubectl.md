@@ -32,6 +32,7 @@ No resources found.
 ```
 ## Simple kubectl test:
 ```console
+# '--' separates the command attributes from kubectl attributes
 kubectl run hello --image=busybox  -- /bin/sh -c "while true; do sleep 10; echo test; done;"
 kubectl logs -f $(kubectl get po --selector=run=hello --output=jsonpath={.items..metadata.name})
 ```
@@ -57,6 +58,13 @@ Starting to serve on 127.0.0.1:8001
 alias k='kubectl --kubeconfig="/Users/sabath/.fr8r/envs/iris-poc1/shard1/admin/kube-config"'
 k get po
 ```
+
+## port forward
+Forward the local port on the client 9000 (e.g. mac) to the service port on pod (9001)
+```
+$k port-forward minio-cc6d4ffdf-4qqww  -n heptio-ark-server 9000:9001 &
+```
+
 ## testing access to k8s API:
 ```
 curl --key /etc/kubernetes/cert/admin-key.pem  --cert /etc/kubernetes/cert/admin.pem  --cacert /etc/kubernetes/cert/ca.pem -v -XGET  -H "Accept: application/json" -H "User-Agent: kubectl/v1.5.1 (linux/amd64) kubernetes/82450d0" https://9.12.235.3:8443/api
