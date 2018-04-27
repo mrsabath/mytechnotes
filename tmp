@@ -1,3 +1,0 @@
-MAILTO=sabath@us.ibm.com
-# run during lunch
-54 * * * * "/bin/date > /tmp/datexxx" 2>&1
