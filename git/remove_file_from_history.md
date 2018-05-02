@@ -83,3 +83,16 @@ git log --all -- *make_TLS_certs*
 git log --all -- *proxy-test/*
 git log --all -- **test_containers/*
 git log --all -- **gen_server_certs*
+
+
+## In short
+```
+# first pass
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch bluemix/*' --prune-empty --tag-name-filter cat -- --all
+
+# second pass
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch bluemix/*' --prune-empty --tag-name-filter cat -- --all
+
+# confirm
+git log --all -- bluemix/*
+```
