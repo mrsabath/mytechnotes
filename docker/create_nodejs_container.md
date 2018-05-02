@@ -1,12 +1,13 @@
 # Create a sample Node.js container.
 
-## install npm
+install npm
 ```
 brew install npm
 ```
-Follow steps [here](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)
-Mike's github https://github.ibm.com/msava/k8-test/tree/master
-My playground: /Users/sabath/projects/node_js/k8-test/
+
+- Follow steps [here](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)
+- Mike's github https://github.ibm.com/msava/k8-test/tree/master
+- My playground: /Users/sabath/projects/node_js/k8-test/
 
 Mike's note:
 ```
@@ -25,7 +26,9 @@ NODE_ENV=development
 `npm start` should work for each.  http://localhost:3002 should bring up a service with json returning.  http://localhost:3001/service is the app calling that service url..
 ```
 
-516  vi .dockerignore
+History dump:
+```
+ 516  vi .dockerignore
  517  docker build -t mrsabath/node-web-app .
  518  docker images
  519  docker run -p 49160:8080 -d mrsabath/node-web-app
@@ -78,7 +81,10 @@ NODE_ENV=development
  566  docker run -p 49171:3001 -d mrsabath/node-test-app
  567  docker ps
  568  docker logs -f b75
+```
 
+Further steps
+```console
 # build image
 docker build -t mrsabath/node-test-service .
 # test locally
@@ -88,29 +94,28 @@ curl -i localhost:49171
 # push the image to the registry:
 docker push mrsabath/node-test-service
 
-
-Silesia:service sabath$ kubectl create -f webService-depl.yaml
+$ kubectl create -f webService-depl.yaml
 poddisruptionbudget "web-ms-budget" created
 deployment "web-ms-deployment" created
 service "web-ms-service" created
-Silesia:service sabath$ kubectl get po
+$ kubectl get po
 NAME                                 READY     STATUS        RESTARTS   AGE
 web-ms-deployment-1001510701-5682p   0/1       Running       0          5s
 web-ms-deployment-1001510701-7t9b7   0/1       Running       0          5s
 web-ms-deployment-1001510701-dzj2p   0/1       Running       0          5s
 web-ms-deployment-1001510701-nh3b9   0/1       Terminating   0          2m
-Silesia:service sabath$ kubectl get po
+$ kubectl get po
 NAME                                 READY     STATUS    RESTARTS   AGE
 web-ms-deployment-1001510701-5682p   0/1       Running   0          10s
 web-ms-deployment-1001510701-7t9b7   0/1       Running   0          10s
 web-ms-deployment-1001510701-dzj2p   0/1       Running   0          10s
-Silesia:service sabath$ kubectl get service
+$ kubectl get service
 NAME             CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
 kubernetes       172.21.0.1       <none>        443/TCP          39d
 web-ms-service   172.21.184.160   <nodes>       3005:31005/TCP   20s
-Silesia:service sabath$ curl -l 172.21.184.160:31005
+$ curl -l 172.21.184.160:31005
 ^C
-Silesia:service sabath$ bx cs cluster-get kompass-dev
+$ bx cs cluster-get kompass-dev
 Retrieving cluster kompass-dev...
 OK
 
@@ -124,18 +129,18 @@ Ingress subdomain:	kompass-dev.us-south.containers.mybluemix.net
 Ingress secret:		kompass-dev
 Workers:		4
 Version:		1.7.4_1504
-Silesia:service sabath$ curl -l kompass-dev.us-south.containers.mybluemix.net:31005
+$ curl -l kompass-dev.us-south.containers.mybluemix.net:31005
 {"title":"Express"}
 
 # cd to app
 docker build -t mrsabath/node-test-app .
 # test locally
-Silesia:app sabath$ docker run -p 49172:3001 -e PORT=3001 -e NODE_ENV=development -e SERVICE_URL=http://kompass-dev.us-south.containers.mybluemix.net:31005 --name app -d mrsabath/node-test-app
+$ docker run -p 49172:3001 -e PORT=3001 -e NODE_ENV=development -e SERVICE_URL=http://kompass-dev.us-south.containers.mybluemix.net:31005 --name app -d mrsabath/node-test-app
 5a805d2f226c1539da8ed9a269fccdd3a42d7bc2887f5fd52e0b1d7356e86363
-Silesia:app sabath$ docker ps
+$ docker ps
 CONTAINER ID        IMAGE                        COMMAND             CREATED             STATUS              PORTS                               NAMES
 5a805d2f226c        mrsabath/node-test-app       "npm start"         4 seconds ago       Up 3 seconds        0.0.0.0:49172->3001/tcp             app
-Silesia:app sabath$ curl -i localhost:49172
+$ curl -i localhost:49172
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Content-Type: text/html; charset=utf-8
@@ -145,10 +150,11 @@ Date: Wed, 20 Dec 2017 15:05:48 GMT
 Connection: keep-alive
 
 <!DOCTYPE html><html><head><title>Express</title><link rel="stylesheet" href="/stylesheets/style.css"></head><body><h1>Express</h1><p>Welcome to Express</p></body></html>Silesia:app sabath$
-
-## Final testing:
 ```
-silesia:crd sabath$ curl -i http://kompass-dev.us-south.containers.mybluemix.net:31001
+
+## Final testing
+```console
+$ curl -i http://kompass-dev.us-south.containers.mybluemix.net:31001
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Content-Type: text/html; charset=utf-8
@@ -157,9 +163,9 @@ ETag: W/"aa-SNfgj6aecdqLGkiTQbf9lQ"
 Date: Thu, 21 Dec 2017 13:46:12 GMT
 Connection: keep-alive
 
-<!DOCTYPE html><html><head><title>Express</title><link rel="stylesheet" href="/stylesheets/style.css"></head><body><h1>Express</h1><p>Welcome to Express</p></body></html>silesia:crd sabath$
-silesia:crd sabath$
-silesia:crd sabath$ curl -i http://kompass-dev.us-south.containers.mybluemix.net:31001/service
+<!DOCTYPE html><html><head><title>Express</title><link rel="stylesheet" href="/stylesheets/style.css"></head><body><h1>Express</h1><p>Welcome to Express</p></body></html>
+
+$ curl -i http://kompass-dev.us-south.containers.mybluemix.net:31001/service
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
