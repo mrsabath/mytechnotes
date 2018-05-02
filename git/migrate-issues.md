@@ -1,24 +1,24 @@
-# create token:
+# Migrate issues between repos
+
+create token
 https://help.github.com/articles/creating-an-access-token-for-command-line-use/
 
-
-
-# use this script:
+use this script:
  https://github.com/IQAndreas/github-issues-import
 
+create `config.ini` file:
 
- # create config.ini file:
  ```
  [source]
 server = github.com
 repository = fr8r/fr8r-proxy
-username = tommaso@madonia.me
+username = user1@company1.com
 password =
 
 [target]
 server = github.ibm.com
 repository = alchemy-containers/fr8r-proxy
-username = tmadonia@us.ibm.com
+username = new-user@company2.com
 password =
 ```
 

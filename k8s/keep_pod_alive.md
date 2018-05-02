@@ -4,8 +4,8 @@ In the deployment file, pod:
 
 ```yaml
 containers:
-- name: att-client-v2-q4
-  image: stefanberger/4demo:v2
+- name: web-server
+  image: mrsabath/web-ms:v2
   imagePullPolicy: Always
         command: [ "--" ]
         command: [ "/bin/bash", "-c", "--" ]

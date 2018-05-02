@@ -103,7 +103,7 @@ Synchronize
 Fri Feb 13 10:51:19 EST 2009
 ```
 
-## list IPv4 IP addresses and their interaces:
+## list IPv4 IP addresses and their interfaces:
 ```
 ip -4 a
 ```
