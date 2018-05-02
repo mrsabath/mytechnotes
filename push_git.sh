@@ -1,4 +1,4 @@
-cd "/Users/sabath/Box Sync/projects/mytechnotes"
+cd "/Users/sabath/workspace/mrsabath/mytechnotes"
 git add *
 git status
 MSG=$(date +'%Y-%m-%d %H:%M:%S')

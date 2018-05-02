@@ -95,4 +95,7 @@ git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch bluem
 
 # confirm
 git log --all -- bluemix/*
+
+# list deleted files
+git log --diff-filter=D --summary | grep delete
 ```

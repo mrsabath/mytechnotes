@@ -4,25 +4,25 @@ https://github.ibm.com/seed/seedcrs
 
 Make sure the GOPATH has only one entry, otherwise this error:
 ```
-silesia:crsample sabath$ hack/update-codegen.sh
+$ hack/update-codegen.sh
 hack/..
 Generating deepcopy funcs
 vendor/k8s.io/code-generator/generate-groups.sh: line 65: /Users/sabath/workspace/go-work:/Users/sabath/workspace/go-tools/bin/deepcopy-gen: No such file or directory
-silesia:crsample sabath$ pwd
+$ pwd
 /Users/sabath/workspace/go-work/src/github.ibm.com/seed/crsample
-silesia:crsample sabath$ echo $GOPATH
+$ echo $GOPATH
 /Users/sabath/workspace/go-work:/Users/sabath/workspace/go-tools
 ```
 
 ## Load the dependencies
 ```
-silesia:crsample sabath$ GOPATH=/Users/sabath/workspace/go-work
+$ GOPATH=/Users/sabath/workspace/go-work
 
-silesia:crsample sabath$ rm -rf vendor/*
-silesia:crsample sabath$ glide cache-clear
+$ rm -rf vendor/*
+$ glide cache-clear
 [INFO]	Glide cache has been cleared.
 
-silesia:crsample sabath$ glide up -v
+$ glide up -v
 ```
 ## Regenerating deep copy
 
