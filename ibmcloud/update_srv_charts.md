@@ -153,13 +153,11 @@ Right now we are only supporting charts in Staging Incubator.
 
     ```console
     $ helm repo list
-    $ helm repo add ibm-incubator https://registry.stage1.ng.bluemix.net/helm/ibm-incubator/
-    ```
-1. Assign env variable to this repo name:
 
-  ```bash
-  export HELM_REPO_NAME=ibm-incubator
-  ```
+    # assign env variable for this repo name
+    $ export HELM_REPO_NAME=ibm-staging-incubator
+    $ helm repo add $HELM_REPO_NAME https://registry.stage1.ng.bluemix.net/helm/ibm-incubator/
+    ```
 
 ### Deploying from Production Charts
 As of this moment, all these charts are available only from Staging Helm repository.
@@ -178,7 +176,7 @@ the update.
 * Deploy the `synthetic-load` chart, where `webService.port` value must be unique:
 
     ```console
-    helm install --name=synthetic-load --namespace=default --set webService.port=30001 \
+    $ helm install --name=synthetic-load --namespace=default --set webService.port=30001 \
     --set webService.podCount=5 --set webDeplGroup.podCount=3 $HELM_REPO_NAME/synthetic-load
     ```
 The example above will create 10 groups with 3 pods each and one deployment with 5 pods and a service running on port 30001.
@@ -202,18 +200,21 @@ The example above will create 10 groups with 3 pods each and one deployment with
   * cluster.name - name of the IBM Container Cloud cluster (see steps above)
 
 1. Deploy the `update-deployer` chart using reboot option (reload takes much longer,
- so reboot is better for testing...):
+ so reboot is better for testing...) Make sure your HELM_REPO_NAME is set in
+ steps above. Assign your cluster name to CLUSTER_NAME variable:
 
     ```console
-    helm install --name=update-deployer --namespace=default \
+    $ export CLUSTER_NAME=
+    
+    $ helm install --name=update-deployer --namespace=default \
     --set planner.type=SIMOPT --set planner.ClusterAvailPodPerc=0.3 \
     --set updateReq.repository=$HELM_REPO_NAME/update-req-armada-reboot \
-    --set cluster.name=mycluster $HELM_REPO_NAME/update-deployer
+    --set cluster.name=$CLUSTER_NAME $HELM_REPO_NAME/update-deployer
     ```
 
 1.  If you like to create a new values files instead of passing the values directly, use the example embedded in the chart.
     ```
-    helm inspect values $HELM_REPO_NAME/update-deployer > config.yaml
+    $ helm inspect values $HELM_REPO_NAME/update-deployer > config.yaml
     ```
     Where `$HELM_REPO_NAME` is the name of the repository containing `update-deployer` (added above or from `helm repo list`).
 

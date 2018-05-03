@@ -18,7 +18,7 @@ MAILTO=sabath@us.ibm.com
 15 12 * * * "/Users/sabath/Box Sync/projects/mytechnotes/push_git.sh" >> /tmp/cron.log 2>&1
 ```
 
-update ``~/.ssh/config`
+update `~/.ssh/config`
 
 ```
 Host github.ibm.com
