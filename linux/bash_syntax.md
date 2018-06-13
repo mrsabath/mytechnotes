@@ -175,3 +175,15 @@ username=user
 password=pass
 EOF
 ```
+
+
+## source profiles from inside the script:
+## Run the shell script invoking DB2
+
+```sh
+#!/bin/bash
+# run some stuff as root
+# then switch to db2inst1 instance
+
+su - db2inst1 -c '. /home/db2inst1/sqllib/db2profile; db2 catalog db ORDERDB on /db2; db2start'
+```
