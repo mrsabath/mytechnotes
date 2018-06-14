@@ -29,13 +29,14 @@ if [[ "$1" == "-?" || "$1" == "-h" || "$1" == "--help" || "$2" == "" ]] ; then
 fi
 ```
 
-##input param
+## input parameters
 
 ```bash
 echo "Select Cloud:"
 read CL
 echo "Selected $CL"
 ```
+
 ## some other things:
 
 ```bash
@@ -70,7 +71,6 @@ elif [ "$status" -eq "1" ]; then
 else
        echo "($status) validation status: UNKNOWN"
 fi
-
 
 func() {
 	echo $1
@@ -178,7 +178,7 @@ EOF
 
 
 ## source profiles from inside the script:
-## Run the shell script invoking DB2
+Run the shell script invoking DB2
 
 ```sh
 #!/bin/bash
