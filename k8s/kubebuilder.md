@@ -20,3 +20,14 @@ kubebuilder init --domain ibm --owner = "Mariusz"
 brew install dep
 brew upgrade dep
 ```
+
+Create APIs:
+```
+kubebuilder create api --group mcm --version v1alpha1 --kind Policy
+```
+
+Execute it:
+```
+make install
+make run
+```
