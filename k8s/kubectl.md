@@ -47,6 +47,25 @@ kubectl logs $(kubectl get pods --selector=app=att-client --output=jsonpath={.it
 kubectl logs -f $(kubectl get pods | grep att-client | awk -F ' ' '{print $1}' | sed -n 1p)
 ```
 
+## Various kubectl exec operations
+```
+# setup an alias
+alias kk="kubectl -n trusted-identity"
+# pass env. var via exec
+kk exec -it tsi-setup-tsi-node-setup-n2wbx -- sh -c 'curl $HOST_IP:5000/public/getCSR'
+
+# copy file to/from the pod:
+kubectl cp <file-spec-src> <file-spec-dest> -c <specific-container>
+kubectl cp <some-namespace>/<some-pod>:/tmp/foo /tmp/bar
+
+kk cp test.me tsi-setup-tsi-node-setup-n2wbx:/tmp
+kk exec -it tsi-setup-tsi-node-setup-n2wbx -- sh -c 'cat /tmp/test.me'
+test
+
+# parse the log file:
+export ROOT_TOKEN=$(kk logs $(kk get po | grep ti-vault-| awk '{print $1}') | grep Root | cut -d' ' -f3)
+```
+
 UI:
 ```
 kubectl proxy
@@ -57,6 +76,59 @@ Starting to serve on 127.0.0.1:8001
 ```console
 alias k='kubectl --kubeconfig="/Users/sabath/.fr8r/envs/iris-poc1/shard1/admin/kube-config"'
 k get po
+```
+
+Alias for a specific namespace:
+```
+alias kk='kubectl -n trusted-identity'
+```
+
+## get the group of pods using label
+```
+kk get po -l "name=jss-server"
+NAME               READY   STATUS    RESTARTS   AGE
+jss-server-77zdq   2/2     Running   0          19d
+jss-server-rvhhc   2/2     Running   0          19d
+
+```
+
+## create an object using in-line method
+```console
+kubectl create -f- <<EOF
+kind: Service
+apiVersion: v1
+metadata:
+  name: ti-vault
+spec:
+  selector:
+    app: ti-vault
+  ports:
+  - protocol: TCP
+    port: 8200
+    targetPort: 8200
+  type: NodePort
+EOF
+```
+
+Istio example with in-line
+```console
+kubectl apply -f - <<EOF
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: httpbin-gateway
+  namespace: foo
+spec:
+  selector:
+    istio: ingressgateway # use Istio default gateway implementation
+  servers:
+  - port:
+      number: 80
+      name: http
+      protocol: HTTP
+    hosts:
+    - "*"
+EOF
 ```
 
 ## port forward

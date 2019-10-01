@@ -20,6 +20,18 @@ docker run ubuntu:14.04 ls /
 docker run -it ubuntu:14.04 /bin/bash
 ```
 
+## Cleanup docker env.
+
+```
+docker system prune
+....
+Total reclaimed space: 14.31GB
+```
+
+# Using env. variables in docker exec:
+```
+docker exec -it tsi-setup -- sh -c 'curl $HOST_IP:5000/public/getCSR'
+```
 
 ## running docker APIs:
 ## inspect container
