@@ -10,49 +10,21 @@ anything related to them and I give no warranties :)
 
 ### Categories
 
-* [docker](#Docker)
-* [git](#git)
-* [go](#go)
-* [hacks](#hacks)
-* [ibmcloud](#ibmcloud)
-* [kubernetes(k8s)](#kubernetes-k8s)
-* [linux](#linux)
-* [python](#python)
-* [slack](#slack)
-* [swarm](#swarm)
-* [unix](#unix)
-* [vagrant](#vagrant)
-* [vim](#vim)
-
----
-### Docker
-- [Docker info](docker/docker-info.md)
-- [Create Nodejs container](docker/create_nodejs_container.md)
-- [Registry](docker/registry.md)
-
-### Git
-
-### Go
-
-### Hacks
-
-### IBMcloud
-
-### Kubernetes (k8s)
-
-### Linux
-
-### Python
-
-###  Slack
-
-###  Swarm
-
-###  Unix
-
-###  Vagrant
-
-###  Vim
+* [DB2](./db2/)
+* [DeepLearning](./deeplearning/)
+* [Docker](./docker)
+* [git](./git)
+* [GoLang](./go)
+* [hacks](./hacks)
+* [IBMcloud](./ibmcloud)
+* [K8s](./k8s)
+* [linux](./linux)
+* [python](./python)
+* [slack](./slack)
+* [swarm](./swarm)
+* [unix](./unix)
+* [vagrant](./vagrant)
+* [vim](./vim)
 
 ---
 
