@@ -28,6 +28,10 @@ anything related to them and I give no warranties :)
 
 ---
 
+## Automate Notes Taking
+Take your notes using your favorite editor (e.g. [Atom](https://atom.io/)) then
+push them daily to GitHub in automated matter. See [here](./git/git_and_crontab.md) for details. 
+
 ## About
 I shamelessly stole some ideas from [jbranchaud/til](https://github.com/jbranchaud/til)
 

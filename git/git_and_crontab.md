@@ -1,30 +1,74 @@
 # Automated push to git
+These steps are for Mac system.
 
-## if you want automated `git push` daily, you need following:
-
-create `push_git.sh`
-```
-cd "/Users/sabath/Box Sync/projects/mytechnotes"
-git add *
-git status
-MSG=$(date +'%Y-%m-%d %H:%M:%S')
-git commit  -m "Auto-committed at $MSG"
-HOME=/Users/sabath git push origin master
-```
-create `crontab.txt`
-```
-MAILTO=sabath@us.ibm.com
-# run during lunch
-15 12 * * * "/Users/sabath/Box Sync/projects/mytechnotes/push_git.sh" >> /tmp/cron.log 2>&1
+Create a new key dedicated for GitHub:
+```console
+ssh-keygen -b 4096 -t rsa -f ~/.ssh/id_rsa_github -q -C "your@email" -N ""
 ```
 
-update `~/.ssh/config`
+Create/update `~/.ssh/config`:
+If you need separate GitHub hosts, follow the example:
 
-```
+```console
+# this is for my public GitHub
+Host github.com
+     HostName github.com
+     User git
+     UserKnownHostsFile /dev/null
+     StrictHostKeyChecking no
+     IdentityFile /Users/user/.ssh/id_rsa_github
+
+# this is for my IBM GitHub
 Host github.ibm.com
      HostName github.ibm.com
      User git
      UserKnownHostsFile /dev/null
      StrictHostKeyChecking no
-     IdentityFile /Users/sabath/.ssh/id_rsa
+     IdentityFile /Users/user/.ssh/id_rsa
+```
+Add the newly created key(s) to your system, then list
+
+```console
+ssh-add ~/.ssh/id_rsa_github
+ssh-add -l
+```
+
+Publish your *public* key to github: [https://github.com/settings/keys](https://github.com/settings/keys)
+
+Test the connection (must use user 'git'):
+```
+ssh -T git@github.com
+# or more verbose to see the errors:
+ssh -vT git@github.com
+```
+
+Change the directory to your local clone of the repo and run:
+```
+git remote set-url origin git@github.com:username/your-repository.git
+```
+
+If you want fully automated `git push` daily, you need following:
+
+create `push_git.sh`
+```shell
+cd "/Users/username/workspace/mytechnotes"
+git add *
+git status
+MSG=$(date +'%Y-%m-%d %H:%M:%S')
+git commit  -m "Auto-committed at $MSG"
+HOME=/Users/username git push origin master
+```
+create `crontab.txt`
+```shell
+MAILTO=username@email
+# run during lunch
+15 12 * * * "/Users/username/Box Sync/projects/mytechnotes/push_git.sh" >> /tmp/cron.log 2>&1
+```
+
+create or update crontab:
+```bash
+crontab -l
+crontab crontab.txt
+# or add to existing one
+crontab -e
 ```
