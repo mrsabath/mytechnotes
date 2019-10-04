@@ -6,10 +6,9 @@ Create a new key dedicated for GitHub:
 ssh-keygen -b 4096 -t rsa -f ~/.ssh/id_rsa_github -q -C "your@email" -N ""
 ```
 
-Create/update `~/.ssh/config`:
-If you need separate GitHub hosts, follow the example:
+Create/update `~/.ssh/config`. If you are using separate GitHub hosts, follow the example:
 
-```console
+```shell
 # this is for my public GitHub
 Host github.com
      HostName github.com
@@ -24,16 +23,16 @@ Host github.ibm.com
      User git
      UserKnownHostsFile /dev/null
      StrictHostKeyChecking no
-     IdentityFile /Users/user/.ssh/id_rsa
+     IdentityFile /Users/user/.ssh/id_rsa_githubibm
 ```
 Add the newly created key(s) to your system, then list
 
-```console
+```
 ssh-add ~/.ssh/id_rsa_github
 ssh-add -l
 ```
 
-Publish your *public* key to github: [https://github.com/settings/keys](https://github.com/settings/keys)
+Publish your **public** key to github: [https://github.com/settings/keys](https://github.com/settings/keys)
 
 Test the connection (must use user 'git'):
 ```
@@ -59,14 +58,14 @@ git commit  -m "Auto-committed at $MSG"
 HOME=/Users/username git push origin master
 ```
 create `crontab.txt`
-```shell
+```
 MAILTO=username@email
 # run during lunch
 15 12 * * * "/Users/username/Box Sync/projects/mytechnotes/push_git.sh" >> /tmp/cron.log 2>&1
 ```
 
 create or update crontab:
-```bash
+```
 crontab -l
 crontab crontab.txt
 # or add to existing one
