@@ -1,2 +1,4 @@
 crontab.txt
 push_git.sh
+*.DS_Store
+*/.DS_Store
