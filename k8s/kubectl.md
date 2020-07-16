@@ -1,7 +1,12 @@
 # Various K8s and kubectl Commands
 
-## install kubectl
+## setup alias to save on typing
+```console
+alias k="kubectl"
+alias kk="kubectl -n trusted-identity"
+```
 
+## install kubectl
 install kubectl on host using Docker:
 ```
 docker run -e LICENSE=accept --net=host -v /usr/local/bin:/data ibmcom/kubernetes:v1.7.3 cp /kubectl /data
@@ -331,10 +336,4 @@ curl  --key /etc/kubernetes/cert/admin-key.pem --cert /etc/kubernetes/cert/admin
 ## fixed by:
 brew rm curl && brew install curl --with-openssl
 https://coderwall.com/p/h3zzrw/using-client-ssl-certificates-for-php-curl-requests-on-osx
-```
-
-
-## Events:
-```
-kubectl get ev -w --watch-only=true | grep Pod
 ```
