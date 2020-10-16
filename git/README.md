@@ -199,6 +199,9 @@ git commit -m "reason for changes"
 # push the data to the remote server
 git push -u origin non_nested_client
 
+# remove all the stopped containers:
+docker rm $(docker ps -aq)
+
 # remove (delete) file
 git rm myfile
 git commit -m "Deleting file"
