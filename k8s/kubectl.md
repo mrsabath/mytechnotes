@@ -35,6 +35,15 @@ kube-web-ms   1/1       Running   0          <invalid>
 vagrant@client:~$ kubectl --kubeconfig=/home/vagrant/first-user/kube-config get pods
 No resources found.
 ```
+## Capture Kubeconfig
+```
+export KUBECONFIG=
+kubectl config view --flatten > /tmp/kubeconfig
+
+export KUBECONFIG=/tmp/kubeconfig
+```
+
+
 ## Simple kubectl test:
 ```console
 # '--' separates the command attributes from kubectl attributes
