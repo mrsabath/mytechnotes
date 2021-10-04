@@ -15,7 +15,7 @@ k delete po nginx --grace-period=0 --force
 kubectl run nginx --image=nginx --restart=Never --dry-run -o yaml > nginx-pod.yaml
 
 # List all the pods showing name and namespace with a json path expression
-kubectl get pods -o=jsonpath="{.items[*]['metadata.name', 'metadata.namespace']}"
+kubectl get pods -o jsonpath="{.items[*]['metadata.name', 'metadata.namespace']}"
 
 # Create the nginx pod with version 1.17.4 and expose it on port 80
 kubectl run nginx --image=nginx:1.17.4 --restart=Never --port=80
