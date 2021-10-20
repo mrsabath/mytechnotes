@@ -1,4 +1,28 @@
-# ERROR:
+# Debugging K8s
+
+https://thenewstack.io/living-with-kubernetes-debug-clusters-in-8-commands/
+
+A few useful commands for debugging Kubernetes:
+
+```console
+kubectl version --short
+kubectl cluster-info
+kubectl get componentstatus
+kubectl api-resources -o wide --sort-by name
+kubectl get events -A
+kubectl get nodes -o wide
+kubectl get pods -A -o wide
+kubectl run a --image alpine --command -- /bin/sleep 1d
+```
+
+## kubectl cluster-info
+To get all the information about the cluster:
+```console
+kubectl cluster-info dump
+```
+
+
+## ERROR:
 ```
 {kubelet 9.47.168.134}            Warning        FailedSync    Error syncing pod, skipping: failed to "SetupNetwork" for "web-ms-deployment-1563362432-zg245_default" with SetupNetworkError: "Failed to setup network for pod \"web-ms-deployment-1563362432-zg245_default(caef25c2-94d6-11e7-90ae-52548b38cc72)\" using network plugins \"cni\": client: etcd cluster is unavailable or misconfigured; error #0: dial tcp 127.0.0.1:2379: getsockopt: connection refused\n; Skipping pod"
 ```
