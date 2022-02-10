@@ -28,15 +28,42 @@ podman version
 podman info
 ```
 
-when all good, setup the alias
+when all good, setup the alias,
 add to `~/.bash_profile`
 ```
 alias docker="/usr/local/bin/podman"
 ```
+Now you can use `docker` commands.
 
-To login to docker.io, CLI Token created on https://hub.docker.com/settings/security
+## Image management
+To login to docker.io registry,
+use CLI/API Token created on https://hub.docker.com/settings/security
 
 ```
+# interactive:
 podman login docker.io -u mrsabath
-Password:
+Password: <API Token>
+# or all in one:
+podman login docker.io -u mrsabath -p <API Token>
+```
+
+Once logged-in successfully, search or pull image:
+```
+podman search docker.io/tsidentity
+podman pull docker.io/tsidentity/tornjak-spire-server:new
+```
+
+## Debugging
+```
+podman pull docker.io/tsidentity/tornjak-spire-server:new --log-level=debug
+
+podman machine ssh --log-level=debug
+
+```
+
+## Cleanup. Stop/Remove the VM
+```
+podman machine list
+podman machine stop
+podman machine rm
 ```
