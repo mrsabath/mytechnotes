@@ -21,6 +21,27 @@ To get all the information about the cluster:
 kubectl cluster-info dump
 ```
 
+Your favorite `kubectl` debugging/troubleshooting commands:
+https://twitter.com/I_saloni92/status/1513710771087155204/photo/1
+Main track: https://twitter.com/saiyampathak/status/1513572111721271298
+
+busybox for telnet, service connection, nslookup etc.
+```console
+kubectl run --generator=run-pod/v1 -i --tty busybox --image=radial/busyboxplus:curl --restart=Never -- sh
+```
+Also as an ephemeral container:
+```console
+kubectl debug -it demo --image=busybox --share-processes --copy-to=demo-debug
+```
+How many things do I have in etcd? is that number growing crazily?
+```console
+kubectl get --raw /metrics | grep apiserver_storage_objects
+```
+and
+Is etcd being slow?
+```
+kubectl get --raw /metrics | grep etcd.*.sum
+```
 
 ## ERROR:
 ```
