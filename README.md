@@ -19,18 +19,22 @@ anything related to them and I give no warranties :)
 * [IBMcloud](./ibmcloud)
 * [K8s](./k8s)
 * [linux](./linux)
+* [Mac](./mac)
 * [python](./python)
 * [slack](./slack)
+* [SSL](./SSL)
 * [swarm](./swarm)
 * [unix](./unix)
 * [vagrant](./vagrant)
 * [vim](./vim)
+* [web](./web)
 
 ---
 
 ## Automate Notes Taking
 Take your notes using your favorite editor (e.g. [Atom](https://atom.io/)) then
-push them daily to GitHub in automated matter. See [here](./git/git_and_crontab.md) for details. 
+push them daily to GitHub in automated matter. See [here](./git/git_and_crontab.md) for details.
+(updated)
 
 ## About
 I shamelessly stole some ideas from [jbranchaud/til](https://github.com/jbranchaud/til)
