@@ -56,6 +56,7 @@ git status
 MSG=$(date +'%Y-%m-%d %H:%M:%S')
 git commit  -m "Auto-committed at $MSG"
 HOME=/Users/username git push origin master
+echo "Completed! $MSG"
 ```
 create `crontab.txt`
 ```
