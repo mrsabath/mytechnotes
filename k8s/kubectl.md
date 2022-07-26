@@ -35,7 +35,7 @@ kube-web-ms   1/1       Running   0          <invalid>
 vagrant@client:~$ kubectl --kubeconfig=/home/vagrant/first-user/kube-config get pods
 No resources found.
 ```
-## Capture Kubeconfig
+## Capture Kubeconfig with keys
 ```
 export KUBECONFIG=
 kubectl config view --flatten > /tmp/kubeconfig
@@ -50,6 +50,12 @@ export KUBECONFIG=/tmp/kubeconfig
 kubectl run hello --image=busybox  -- /bin/sh -c "while true; do sleep 10; echo test; done;"
 kubectl logs -f $(kubectl get po --selector=run=hello --output=jsonpath={.items..metadata.name})
 ```
+
+## Run simple CURL container:
+```console
+kubectl run curl --image=curlimages/curl  -- /bin/sh -c "tail -f /dev/null"
+```
+
 
 ## various useful combinations:
 ```console
