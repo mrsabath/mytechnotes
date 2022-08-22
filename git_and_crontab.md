@@ -30,6 +30,9 @@ Add the newly created key(s) to your system, then list
 ```
 ssh-add ~/.ssh/id_rsa_github
 ssh-add -l
+
+# to remove all the keys:
+ssh-add -D
 ```
 
 Publish your **public** key to github: [https://github.com/settings/keys](https://github.com/settings/keys)
